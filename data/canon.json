@@ -1,0 +1,1269 @@
+{
+ "source": "S. L. MacGregor Mathers (trans.) and Aleister Crowley (ed.), The Book of the Goetia of Solomon the King (1904), public domain; text from the Wikisource and Internet Archive transcriptions, with disputed numbers checked against page scans of the 1904 edition.",
+ "verified": true,
+ "ranks": [
+  {
+   "rank": "King",
+   "metal": "gold",
+   "planet": "Sol",
+   "count": 9,
+   "description": "The nine chief kings, whose seals are made in gold, the metal of the Sun; they may be bound from nine until noon and from three until sunset."
+  },
+  {
+   "rank": "Duke",
+   "metal": "copper",
+   "planet": "Venus",
+   "count": 23,
+   "description": "The largest rank, with seals in copper, the metal of Venus; dukes may be bound from sunrise until noon in clear weather."
+  },
+  {
+   "rank": "Prince",
+   "metal": "tin",
+   "planet": "Jupiter",
+   "count": 7,
+   "description": "Princes, also called prelates, have seals in tin, the metal of Jupiter, and may be bound at any hour of the day."
+  },
+  {
+   "rank": "Marquis",
+   "metal": "silver",
+   "planet": "Luna",
+   "count": 15,
+   "description": "Marquises have seals in silver, the metal of the Moon, and may be bound from three in the afternoon until nine at night, and from nine at night until sunrise."
+  },
+  {
+   "rank": "President",
+   "metal": "mercury",
+   "planet": "Mercury",
+   "count": 14,
+   "description": "Presidents have seals in mercury, the metal of the planet Mercury; the editor's note suggests a mixed metal may have been meant."
+  },
+  {
+   "rank": "Earl",
+   "metal": "copper and silver in equal parts",
+   "planet": "Venus and Luna",
+   "count": 12,
+   "description": "Earls, or counts, have seals of copper and silver mixed alike equal; the 1904 editor's note suggests they should probably be iron, since otherwise Mars is the one planet left out."
+  },
+  {
+   "rank": "Knight",
+   "metal": "lead",
+   "planet": "Saturn",
+   "count": 1,
+   "description": "The single knight, Furcas, has his seal in lead, the metal of Saturn, and may be bound from dawn until sunrise or from four o'clock until sunset."
+  }
+ ],
+ "spirits": [
+  {
+   "n": 1,
+   "name": "Bael",
+   "alt": [
+    "Baal",
+    "Baell"
+   ],
+   "rank": [
+    "King"
+   ],
+   "legions": 66,
+   "appearance": "He appears in many shapes: sometimes a cat, sometimes a toad, sometimes a man, and sometimes all three at once. He speaks with a hoarse voice.",
+   "office": "A king ruling in the East, he is said to make a person invisible.",
+   "quote": "He appeareth in divers shapes, sometimes like a Cat, sometimes like a Toad, and sometimes like a Man, and sometimes all these forms at once.",
+   "say": "BAY-el",
+   "episode": 1
+  },
+  {
+   "n": 2,
+   "name": "Agares",
+   "alt": [
+    "Agreas"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 31,
+   "appearance": "He comes as a fair old man riding a crocodile, with a goshawk on his fist, and yet mild in appearance.",
+   "office": "He makes those who stand still run and brings back runaways, teaches all languages at once, destroys dignities both spiritual and worldly, and causes earthquakes.",
+   "quote": "He maketh them to run that stand still, and bringeth back runaways.",
+   "say": "ah-GAR-ess",
+   "episode": 2
+  },
+  {
+   "n": 3,
+   "name": "Vassago",
+   "alt": [
+    "Vasago"
+   ],
+   "rank": [
+    "Prince"
+   ],
+   "legions": 26,
+   "appearance": "The text gives him no shape at all; it says only that he is of the same nature as Agares, and of a good nature.",
+   "office": "He declares things past and to come, and discovers all things hidden or lost.",
+   "quote": "This Spirit is of a Good Nature, and his office is to declare things Past and to Come, and to discover all things Hid or Lost.",
+   "say": "vah-SAH-go",
+   "episode": 2
+  },
+  {
+   "n": 4,
+   "name": "Samigina",
+   "alt": [
+    "Gamigin",
+    "Gamygyn"
+   ],
+   "rank": [
+    "Marquis"
+   ],
+   "legions": 30,
+   "appearance": "He appears as a little horse or ass, then changes into human shape at the request of the master. He speaks with a hoarse voice.",
+   "office": "He teaches all the liberal sciences and gives an account of dead souls that died in sin.",
+   "quote": "He teaches all Liberal Sciences, and giveth account of Dead Souls that died in sin.",
+   "say": "sah-mih-JEE-nah",
+   "episode": 2
+  },
+  {
+   "n": 5,
+   "name": "Marbas",
+   "alt": [
+    "Barbas"
+   ],
+   "rank": [
+    "President"
+   ],
+   "legions": 36,
+   "appearance": "He appears first as a great lion, and afterwards, at the request of the master, puts on human shape.",
+   "office": "He answers truly about hidden or secret things, causes diseases and cures them, gives great skill in the mechanical arts, and can change men into other shapes.",
+   "quote": "He causeth Diseases and cureth them.",
+   "say": "MAR-bass",
+   "episode": 6
+  },
+  {
+   "n": 6,
+   "name": "Valefor",
+   "alt": [
+    "Malephar",
+    "Valefar"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 10,
+   "appearance": "He appears in the shape of a lion with the head of an ass, bellowing.",
+   "office": "He is a good familiar, but he tempts the person he serves to steal.",
+   "quote": "He is a good Familiar, but tempteth them he is a familiar of to steal.",
+   "say": "VAL-eh-for",
+   "episode": 7
+  },
+  {
+   "n": 7,
+   "name": "Amon",
+   "alt": [
+    "Aamon"
+   ],
+   "rank": [
+    "Marquis"
+   ],
+   "legions": 40,
+   "appearance": "He appears as a wolf with a serpent's tail, vomiting flames; at the magician's command he becomes a man with dog's teeth set in a raven's head, or simply a man with a raven's head.",
+   "office": "He tells all things past and to come, and both stirs up feuds and reconciles quarrels between friends.",
+   "quote": "He appeareth like a Wolf with a Serpents tail, vomiting out of his mouth flames of fire",
+   "say": "AH-mon",
+   "episode": 9
+  },
+  {
+   "n": 8,
+   "name": "Barbatos",
+   "alt": [],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 30,
+   "appearance": "He appears when the Sun is in Sagittarius, with four noble kings and their companies of great troops.",
+   "office": "He gives understanding of the singing of birds and the voices of other creatures, breaks open treasures hidden by the enchantments of magicians, knows all things past and to come, and reconciles friends and those in power.",
+   "quote": "He giveth understanding of the singing of Birds, and of the Voices of other creatures, such as the barking of Dogs.",
+   "say": "bar-BAH-toss",
+   "episode": 6
+  },
+  {
+   "n": 9,
+   "name": "Paimon",
+   "alt": [
+    "Paymon"
+   ],
+   "rank": [
+    "King"
+   ],
+   "legions": 200,
+   "appearance": "He appears as a man sitting on a dromedary with a most glorious crown on his head, preceded by a host of spirits like men with trumpets, cymbals and every kind of instrument. He has a great voice and roars at his first coming.",
+   "office": "He teaches all arts and sciences and secret things, gives dignity and confirms it, binds any man to the magician's will, and gives good familiars. He is very obedient to Lucifer and is to be observed towards the West.",
+   "quote": "He can discover unto thee what the Earth is, and what holdeth it up in the Waters; and what Mind is, and where it is; or any other thing thou mayest desire to know.",
+   "say": "PIE-mon",
+   "note": "The text gives 200 legions, part of the Order of Angels and part of Potentates. If he is called alone, two kings named Labal and Abalim attend him with a further 25 legions.",
+   "episode": 5
+  },
+  {
+   "n": 10,
+   "name": "Buer",
+   "alt": [],
+   "rank": [
+    "President"
+   ],
+   "legions": 50,
+   "appearance": "The text says only that he appears in Sagittary, and that this is his shape when the Sun is there; that is, in the form of the sign of the Archer.",
+   "office": "He teaches moral and natural philosophy, logic, and the virtues of all herbs and plants; he heals all illnesses in man and gives good familiars.",
+   "quote": "He healeth all distempers in man, and giveth good Familiars.",
+   "say": "BOO-er",
+   "episode": 6
+  },
+  {
+   "n": 11,
+   "name": "Gusion",
+   "alt": [
+    "Gusoin",
+    "Gusoyn"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 40,
+   "appearance": "The text says only that he appears like a Xenopilus, a word nobody has convincingly explained.",
+   "office": "He tells all things past, present and to come, shows the meaning and answer of every question, reconciles friendships, and gives honour and dignity.",
+   "quote": "He telleth all things, Past, Present, and to Come, and showeth the meaning and resolution of all questions thou mayest ask.",
+   "say": "GOO-zee-on",
+   "episode": 6
+  },
+  {
+   "n": 12,
+   "name": "Sitri",
+   "alt": [
+    "Sytry",
+    "Bitru"
+   ],
+   "rank": [
+    "Prince"
+   ],
+   "legions": 60,
+   "appearance": "He appears first with a leopard's head and the wings of a gryphon; at the command of the master he puts on a very beautiful human shape.",
+   "office": "He inflames men with love for women and women with love for men, and makes them show themselves naked if it is desired.",
+   "quote": "He enflameth men with Women's love, and Women with Men's love; and causeth them also to show themselves naked if it be desired.",
+   "say": "SIT-ree",
+   "episode": 7
+  },
+  {
+   "n": 13,
+   "name": "Beleth",
+   "alt": [
+    "Bileth",
+    "Bilet",
+    "Byleth"
+   ],
+   "rank": [
+    "King"
+   ],
+   "legions": 85,
+   "appearance": "A mighty and terrible king, he rides a pale horse with trumpets and other instruments playing before him, and is very furious at his first appearance.",
+   "office": "He causes all the love that may be, of both men and women. The exorcist must command him into a triangle with a hazel wand, receive him courteously, and hold a silver ring on the middle finger of the left hand against his face.",
+   "quote": "He rideth on a pale horse with trumpets and other kinds of musical instruments playing before him.",
+   "say": "BEL-eth",
+   "episode": 3
+  },
+  {
+   "n": 14,
+   "name": "Leraje",
+   "alt": [
+    "Leraikha",
+    "Leraie",
+    "Loray",
+    "Oray"
+   ],
+   "rank": [
+    "Marquis"
+   ],
+   "legions": 30,
+   "appearance": "He shows himself as an archer clad in green, carrying a bow and quiver.",
+   "office": "He causes all great battles and contests, and makes arrow wounds putrefy.",
+   "quote": "He causeth all great Battles and Contests; and maketh wounds to putrefy that are made with Arrows by Archers.",
+   "say": "leh-RAH-yeh",
+   "episode": 7
+  },
+  {
+   "n": 15,
+   "name": "Eligos",
+   "alt": [
+    "Eligor",
+    "Abigor"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 60,
+   "appearance": "He appears as a goodly knight carrying a lance, an ensign and a serpent.",
+   "office": "He discovers hidden things, knows things to come and how wars and soldiers will meet, and causes the love of lords and great persons.",
+   "quote": "He discovereth hidden things, and knoweth things to come; and of Wars, and how the Soldiers will or shall meet.",
+   "say": "EL-ih-goss",
+   "episode": 7
+  },
+  {
+   "n": 16,
+   "name": "Zepar",
+   "alt": [],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 26,
+   "appearance": "He appears in red apparel and armour, like a soldier.",
+   "office": "He causes women to love men and brings them together in love; he also makes them barren.",
+   "quote": "His office is to cause Women to love Men, and to bring them together in love. He also maketh them barren.",
+   "say": "ZEE-par",
+   "episode": 7
+  },
+  {
+   "n": 17,
+   "name": "Botis",
+   "alt": [
+    "Otis"
+   ],
+   "rank": [
+    "President",
+    "Earl"
+   ],
+   "legions": 60,
+   "appearance": "He appears first as an ugly viper; at the magician's command he takes human shape with great teeth and two horns, carrying a bright, sharp sword.",
+   "office": "He tells all things past and to come, and reconciles friends and foes.",
+   "quote": "He appeareth at the first show in the form of an ugly Viper",
+   "say": "BOH-tiss",
+   "episode": 4
+  },
+  {
+   "n": 18,
+   "name": "Bathin",
+   "alt": [
+    "Bathim",
+    "Mathim",
+    "Marthim"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 30,
+   "appearance": "He appears as a strong man with the tail of a serpent, sitting on a pale-coloured horse.",
+   "office": "He knows the virtues of herbs and precious stones, and can transport people suddenly from one country to another.",
+   "quote": "He knoweth the Virtues of Herbs and Precious Stones, and can transport men suddenly from one country to another.",
+   "say": "BATH-in",
+   "episode": 10
+  },
+  {
+   "n": 19,
+   "name": "Sallos",
+   "alt": [
+    "Saleos",
+    "Zaleos"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 30,
+   "appearance": "He appears as a gallant soldier riding a crocodile, with a ducal crown on his head, but peaceably.",
+   "office": "He causes the love of women for men and of men for women.",
+   "quote": "He causeth the Love of Women to Men, and of Men to Women",
+   "say": "SAL-oss",
+   "episode": 7
+  },
+  {
+   "n": 20,
+   "name": "Purson",
+   "alt": [
+    "Pursan",
+    "Curson"
+   ],
+   "rank": [
+    "King"
+   ],
+   "legions": 22,
+   "appearance": "He appears as a comely man with a lion's face, carrying a cruel viper in his hand and riding a bear, with many trumpets sounding before him.",
+   "office": "He knows all hidden things, discovers treasure, tells past, present and future, answers truly about earthly things secret and divine and about the creation of the world, and brings good familiars.",
+   "quote": "Going before him are many Trumpets sounding.",
+   "say": "PUR-son",
+   "episode": 5
+  },
+  {
+   "n": 21,
+   "name": "Marax",
+   "alt": [
+    "Morax",
+    "Foraii"
+   ],
+   "rank": [
+    "Earl",
+    "President"
+   ],
+   "legions": 30,
+   "appearance": "He appears as a great bull with a man's face.",
+   "office": "He makes men very knowing in astronomy and all the liberal sciences, and gives good, wise familiars who know the virtues of herbs and precious stones.",
+   "quote": "He appeareth like a great Bull with a Man's face.",
+   "say": "MAR-ax",
+   "episode": 4
+  },
+  {
+   "n": 22,
+   "name": "Ipos",
+   "alt": [
+    "Ipes",
+    "Ayperos"
+   ],
+   "rank": [
+    "Earl",
+    "Prince"
+   ],
+   "legions": 36,
+   "appearance": "He appears as an angel with a lion's head, a goose's foot and a hare's tail.",
+   "office": "He knows all things past, present and to come, and makes men witty and bold.",
+   "quote": "He maketh men witty and bold.",
+   "say": "EYE-poss",
+   "note": "The entry calls him an Earl and a Mighty Prince, but the classified list at the end of the catalogue places him only among the Princes.",
+   "episode": 4
+  },
+  {
+   "n": 23,
+   "name": "Aim",
+   "alt": [
+    "Aym",
+    "Haborym"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 26,
+   "appearance": "He appears as a very handsome man with three heads: one a serpent, one a man with two stars on his forehead, one a calf. He rides a viper and carries a firebrand.",
+   "office": "He sets cities, castles and great places on fire, makes a person witty in every way, and gives true answers about private matters.",
+   "quote": "He rideth on a Viper, carrying a Firebrand in his Hand, wherewith he setteth cities, castles, and great Places, on fire.",
+   "say": "AYM",
+   "episode": 10
+  },
+  {
+   "n": 24,
+   "name": "Naberius",
+   "alt": [
+    "Naberus",
+    "Cerberus"
+   ],
+   "rank": [
+    "Marquis"
+   ],
+   "legions": 19,
+   "appearance": "He shows himself as a black crane fluttering about the circle, and speaks with a hoarse voice.",
+   "office": "He makes men cunning in all arts and sciences, especially rhetoric, and restores lost dignities and honours.",
+   "quote": "He maketh men cunning in all Arts and Sciences, but especially in the Art of Rhetoric.",
+   "say": "nah-BEER-ee-us",
+   "episode": 6
+  },
+  {
+   "n": 25,
+   "name": "Glasya-Labolas",
+   "alt": [
+    "Glasya Labolas",
+    "Caacrinolaas",
+    "Caassimolar"
+   ],
+   "rank": [
+    "President",
+    "Earl"
+   ],
+   "legions": 36,
+   "appearance": "He shows himself as a dog with wings like a gryphon.",
+   "office": "He teaches all arts and sciences in an instant, is an author of bloodshed and manslaughter, tells things past and to come, causes the love of friends and foes, and can make a man invisible.",
+   "quote": "He teacheth all Arts and Sciences in an instant, and is an Author of Bloodshed and Manslaughter.",
+   "say": "GLASS-ya la-BOH-las",
+   "episode": 4
+  },
+  {
+   "n": 26,
+   "name": "Bune",
+   "alt": [
+    "Buné",
+    "Bime",
+    "Bim"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 30,
+   "appearance": "He appears as a dragon with three heads, one like a dog, one like a gryphon and one like a man, and speaks with a high and comely voice.",
+   "office": "He changes the place of the dead and makes the spirits under him gather on tombs; he gives riches, wisdom and eloquence, and true answers to demands.",
+   "quote": "He changeth the Place of the Dead, and causeth the Spirits which be under him to gather together upon your Sepulchres.",
+   "say": "BOO-nay",
+   "episode": 9
+  },
+  {
+   "n": 27,
+   "name": "Ronove",
+   "alt": [
+    "Ronové",
+    "Roneve",
+    "Ronwe"
+   ],
+   "rank": [
+    "Marquis",
+    "Earl"
+   ],
+   "legions": 19,
+   "appearance": "The text says only that he appears in the form of a monster.",
+   "office": "He teaches rhetoric very well, and gives good servants, knowledge of tongues, and favour with friends or foes.",
+   "quote": "He appeareth in the Form of a Monster.",
+   "say": "ROH-no-vay",
+   "episode": 4
+  },
+  {
+   "n": 28,
+   "name": "Berith",
+   "alt": [
+    "Beale",
+    "Beal",
+    "Bofry",
+    "Bolfry"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 26,
+   "appearance": "He appears as a soldier in red clothing, riding a red horse and wearing a crown of gold, and speaks with a very clear and subtle voice.",
+   "office": "He gives true answers about past, present and future, can turn all metals into gold, and gives dignities and confirms them. A ring must be used in calling him, as with Beleth.",
+   "quote": "He appeareth in the Form of a Soldier with Red Clothing, riding upon a Red Horse, and having a Crown of Gold upon his head.",
+   "say": "BEH-rith",
+   "episode": 9
+  },
+  {
+   "n": 29,
+   "name": "Astaroth",
+   "alt": [
+    "Ashtaroth"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 40,
+   "appearance": "He appears as a hurtful angel riding an infernal beast like a dragon, carrying a viper in his right hand. His breath is so noisome that the magician must hold the magical ring near his face.",
+   "office": "He gives true answers about past, present and future, discovers all secrets, will tell how the spirits fell and the reason of his own fall, and makes men wonderfully knowing in the liberal sciences.",
+   "quote": "Thou must in no wise let him approach too near unto thee, lest he do thee damage by his Noisome Breath.",
+   "say": "ASS-ta-roth",
+   "episode": 3
+  },
+  {
+   "n": 30,
+   "name": "Forneus",
+   "alt": [],
+   "rank": [
+    "Marquis"
+   ],
+   "legions": 29,
+   "appearance": "He appears in the form of a great sea-monster.",
+   "office": "He makes men wonderfully knowing in rhetoric, gives a good name and the understanding of tongues, and makes a person beloved by foes as well as friends.",
+   "quote": "He maketh one to be beloved of his Foes as well as of his Friends.",
+   "say": "FOR-nee-us",
+   "episode": 8
+  },
+  {
+   "n": 31,
+   "name": "Foras",
+   "alt": [
+    "Forcas",
+    "Forras"
+   ],
+   "rank": [
+    "President"
+   ],
+   "legions": 29,
+   "appearance": "He appears in the form of a strong man in human shape.",
+   "office": "He teaches the virtues of all herbs and precious stones and the arts of logic and ethics; he can make men invisible, long-lived and eloquent, discover treasures and recover lost things.",
+   "quote": "He can discover Treasures and recover things Lost.",
+   "say": "FOR-ass",
+   "episode": 6
+  },
+  {
+   "n": 32,
+   "name": "Asmoday",
+   "alt": [
+    "Asmodai",
+    "Asmodeus",
+    "Sydonay"
+   ],
+   "rank": [
+    "King"
+   ],
+   "legions": 72,
+   "appearance": "He appears with three heads, of a bull, a man and a ram, with a serpent's tail, webbed feet like a goose, and flames coming from his mouth. He sits on an infernal dragon and carries a lance with a banner.",
+   "office": "He gives the Ring of Virtues, teaches arithmetic, astronomy, geometry and all handicrafts, gives true and full answers, makes a person invincible, and shows where treasures lie and guards them. He is first and choicest under Amaymon.",
+   "quote": "as soon as the Exorcist seeth Asmoday in the shape aforesaid, he shall call him by his Name, saying: \"Art thou Asmoday?\" and he will not deny it",
+   "say": "ASS-mo-day",
+   "episode": 5
+  },
+  {
+   "n": 33,
+   "name": "Gaap",
+   "alt": [
+    "Gäap",
+    "Goap",
+    "Tap"
+   ],
+   "rank": [
+    "President",
+    "Prince"
+   ],
+   "legions": 66,
+   "appearance": "He appears in human shape when the Sun is in some of the southern signs, going before four great and mighty kings as if he were their guide.",
+   "office": "He makes men insensible or ignorant, or knowing in philosophy and the liberal sciences; he causes love or hatred, delivers familiars out of the custody of other magicians, tells past, present and future, and carries people very speedily from one kingdom to another.",
+   "quote": "He can carry and re-carry men very speedily from one Kingdom to another, at the Will and Pleasure of the Exorcist.",
+   "say": "GAHP",
+   "episode": 4
+  },
+  {
+   "n": 34,
+   "name": "Furfur",
+   "alt": [],
+   "rank": [
+    "Earl"
+   ],
+   "legions": 26,
+   "appearance": "He appears as a hart, a stag, with a fiery tail; once compelled into the triangle he takes the form of an angel and speaks with a hoarse voice.",
+   "office": "He never speaks the truth unless compelled or brought within a triangle. He urges love between man and woman, raises lightning, thunder and great storms, and gives true answers about secret and divine things if commanded.",
+   "quote": "He can raise Lightnings and Thunders, Blasts, and Great Tempestuous Storms.",
+   "say": "FUR-fur",
+   "episode": 7
+  },
+  {
+   "n": 35,
+   "name": "Marchosias",
+   "alt": [
+    "Marchocias"
+   ],
+   "rank": [
+    "Marquis"
+   ],
+   "legions": 30,
+   "appearance": "He appears first as a wolf with gryphon's wings and a serpent's tail, vomiting fire; after a time, at the exorcist's command, he takes the shape of a man.",
+   "office": "He is a strong fighter. He told Solomon that after twelve hundred years he hoped to return to the Seventh Throne.",
+   "quote": "after 1,200 years he had hopes to return unto the Seventh Throne.",
+   "say": "mar-KOH-see-as",
+   "episode": 8
+  },
+  {
+   "n": 36,
+   "name": "Stolas",
+   "alt": [
+    "Stolos"
+   ],
+   "rank": [
+    "Prince"
+   ],
+   "legions": 26,
+   "appearance": "He appears first in the shape of a mighty raven, and afterwards takes the image of a man.",
+   "office": "He teaches astronomy and the virtues of herbs and precious stones.",
+   "quote": "He teacheth the Art of Astronomy, and the Virtues of Herbs and Precious Stones.",
+   "say": "STOH-las",
+   "episode": 6
+  },
+  {
+   "n": 37,
+   "name": "Phenex",
+   "alt": [
+    "Pheynix",
+    "Phoenix"
+   ],
+   "rank": [
+    "Marquis"
+   ],
+   "legions": 20,
+   "appearance": "He appears like the bird phoenix, with the voice of a child, singing many sweet notes that the exorcist must not heed before bidding him take human shape.",
+   "office": "He speaks marvellously of all wonderful sciences and is a good and excellent poet. He too hopes to return to the Seventh Throne after twelve hundred more years.",
+   "quote": "He singeth many sweet notes before the Exorcist, which he must not regard, but by-and-by he must bid him put on Human Shape.",
+   "say": "FEE-nix",
+   "episode": 8
+  },
+  {
+   "n": 38,
+   "name": "Halphas",
+   "alt": [
+    "Malthus",
+    "Malthous",
+    "Malthas"
+   ],
+   "rank": [
+    "Earl"
+   ],
+   "legions": 26,
+   "appearance": "He appears in the form of a stock-dove and speaks with a hoarse voice.",
+   "office": "He builds towers, furnishes them with ammunition and weapons, and sends men-of-war to places appointed.",
+   "quote": "His Office is to build up Towers, and to furnish them with Ammunition and Weapons",
+   "say": "HAL-fass",
+   "episode": 10
+  },
+  {
+   "n": 39,
+   "name": "Malphas",
+   "alt": [],
+   "rank": [
+    "President"
+   ],
+   "legions": 40,
+   "appearance": "He appears first like a crow, then puts on human shape at the exorcist's request and speaks with a hoarse voice.",
+   "office": "He builds houses and high towers, reveals enemies' desires, thoughts and deeds, and gives good familiars. He will accept a sacrifice kindly, and then deceive the one who offers it.",
+   "quote": "If thou makest a Sacrifice unto him he will receive it kindly and willingly, but he will deceive him that doth it.",
+   "say": "MAL-fass",
+   "episode": 10
+  },
+  {
+   "n": 40,
+   "name": "Raum",
+   "alt": [
+    "Räum",
+    "Raim"
+   ],
+   "rank": [
+    "Earl"
+   ],
+   "legions": 30,
+   "appearance": "He appears first in the form of a crow, then puts on human shape at the exorcist's command.",
+   "office": "He steals treasures out of kings' houses and carries them where he is told, destroys cities and the dignities of men, tells past, present and future, and causes love between friends and foes.",
+   "quote": "to destroy Cities and Dignities of Men, and to tell all things, Past, and What Is, and what Will Be",
+   "say": "RAH-oom",
+   "episode": 7
+  },
+  {
+   "n": 41,
+   "name": "Focalor",
+   "alt": [
+    "Forcalor",
+    "Furcalor"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 30,
+   "appearance": "He appears in the form of a man with gryphon's wings.",
+   "office": "He slays men and drowns them in the waters and overthrows ships of war, having power over winds and seas, but will hurt no one if the exorcist commands otherwise. He hopes to return to the Seventh Throne after a thousand years.",
+   "quote": "His office is to slay Men, and to drown them in the Waters, and to overthrow Ships of War, for he hath Power over both Winds and Seas",
+   "say": "FOH-ka-lor",
+   "note": "The text prints 30 legions; an editorial footnote says several manuscripts give three, but that 30 is probably more correct.",
+   "episode": 8
+  },
+  {
+   "n": 42,
+   "name": "Vepar",
+   "alt": [
+    "Vephar",
+    "Separ"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 29,
+   "appearance": "He appears like a mermaid.",
+   "office": "He governs the waters and guides ships laden with arms and armour; he can make the seas stormy and seem full of ships, and makes men die in three days by putrefying wounds.",
+   "quote": "he can cause the seas to be right stormy and to appear full of ships.",
+   "say": "VEH-par",
+   "episode": 8
+  },
+  {
+   "n": 43,
+   "name": "Sabnock",
+   "alt": [
+    "Savnok",
+    "Sabnach"
+   ],
+   "rank": [
+    "Marquis"
+   ],
+   "legions": 50,
+   "appearance": "He appears as an armed soldier with a lion's head, riding a pale-coloured horse.",
+   "office": "He builds high towers, castles and cities and furnishes them with armour, afflicts men for many days with wounds and sores full of worms, and gives good familiars.",
+   "quote": "appearing in the Form of an Armed Soldier with a Lion's Head, riding on a pale-coloured horse.",
+   "say": "SAB-nock",
+   "episode": 12
+  },
+  {
+   "n": 44,
+   "name": "Shax",
+   "alt": [
+    "Shaz",
+    "Shass",
+    "Chax",
+    "Scox"
+   ],
+   "rank": [
+    "Marquis"
+   ],
+   "legions": 30,
+   "appearance": "He appears in the form of a stock-dove, speaking with a hoarse but subtle voice.",
+   "office": "He takes away the sight, hearing or understanding of any man or woman, steals money out of the houses of kings, and fetches horses or anything else. Unless commanded into a triangle he will deceive the exorcist and tell many lies.",
+   "quote": "to steal money out of the houses of Kings, and to carry it again in 1,200 years.",
+   "say": "SHAKS",
+   "episode": 7
+  },
+  {
+   "n": 45,
+   "name": "Vine",
+   "alt": [
+    "Viné",
+    "Vinea"
+   ],
+   "rank": [
+    "King",
+    "Earl"
+   ],
+   "legions": 36,
+   "appearance": "He appears in the form of a lion riding a black horse and bearing a viper in his hand.",
+   "office": "He discovers hidden things, witches and wizards, and things present, past and to come; at command he builds towers, overthrows great stone walls, and makes the waters rough with storms.",
+   "quote": "will build Towers, overthrow Great Stone Walls, and make the Waters rough with Storms.",
+   "say": "VEE-nay",
+   "episode": 5
+  },
+  {
+   "n": 46,
+   "name": "Bifrons",
+   "alt": [
+    "Bifrous",
+    "Bifrovs"
+   ],
+   "rank": [
+    "Earl"
+   ],
+   "legions": 6,
+   "appearance": "He appears in the form of a monster, and after a while, at the exorcist's command, takes the shape of a man.",
+   "office": "He makes one knowing in astrology, geometry and other arts, teaches the virtues of precious stones and woods, moves dead bodies to another place, and lights seeming candles on the graves of the dead.",
+   "quote": "He changeth Dead Bodies, and putteth them in another place; also he lighteth seeming Candles upon the Graves of the Dead.",
+   "say": "BIFF-ronz",
+   "note": "The 1904 text prints 6 legions; an editorial footnote says this should probably be 60, and Weyer's older catalogue gives 26.",
+   "episode": 9
+  },
+  {
+   "n": 47,
+   "name": "Uvall",
+   "alt": [
+    "Vual",
+    "Voval",
+    "Wall"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 37,
+   "appearance": "He appears first as a mighty dromedary, then at the exorcist's command puts on human shape and speaks the Egyptian tongue, but not perfectly.",
+   "office": "He procures the love of women, tells things past, present and to come, and makes friendship between friends and foes.",
+   "quote": "speaketh the Egyptian Tongue, but not perfectly.",
+   "say": "oo-VAHL",
+   "episode": 7
+  },
+  {
+   "n": 48,
+   "name": "Haagenti",
+   "alt": [
+    "Häagenti"
+   ],
+   "rank": [
+    "President"
+   ],
+   "legions": 33,
+   "appearance": "He appears as a mighty bull with gryphon's wings, and afterwards puts on human shape.",
+   "office": "He makes men wise and instructs them in many things, transmutes all metals into gold, and changes wine into water and water into wine.",
+   "quote": "His Office is to make Men wise, and to instruct them in divers things; also to Transmute all Metals into Gold; and to change Wine into Water, and Water into Wine.",
+   "say": "hah-GEN-tee",
+   "episode": 6
+  },
+  {
+   "n": 49,
+   "name": "Crocell",
+   "alt": [
+    "Crokel",
+    "Procel",
+    "Procell"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 48,
+   "appearance": "He appears in the form of an angel, speaking somewhat mystically of hidden things.",
+   "office": "He teaches geometry and the liberal sciences, produces great noises like the rushing of many waters where there are none, warms waters and discovers baths.",
+   "quote": "will produce Great Noises like the Rushings of many Waters, although there be none.",
+   "say": "kro-SELL",
+   "episode": 8
+  },
+  {
+   "n": 50,
+   "name": "Furcas",
+   "alt": [
+    "Forcas"
+   ],
+   "rank": [
+    "Knight"
+   ],
+   "legions": 20,
+   "appearance": "He appears as a cruel old man with a long beard and a hoary head, riding a pale-coloured horse and holding a sharp weapon.",
+   "office": "He teaches philosophy, astrology, rhetoric, logic, palm-reading and divination by fire, in all their parts and perfectly. He is the only Knight among the seventy-two.",
+   "quote": "appeareth in the Form of a Cruel Old Man with a long Beard and a hoary Head, riding upon a pale-coloured Horse, with a Sharp Weapon in his hand.",
+   "say": "FUR-kass",
+   "episode": 4
+  },
+  {
+   "n": 51,
+   "name": "Balam",
+   "alt": [
+    "Balaam"
+   ],
+   "rank": [
+    "King"
+   ],
+   "legions": 40,
+   "appearance": "He appears with three heads, of a bull, a man and a ram, with a serpent's tail and flaming eyes. He rides a furious bear, carries a goshawk on his fist, and speaks with a hoarse voice.",
+   "office": "He gives true answers about things past, present and to come, and makes men invisible and witty.",
+   "quote": "He hath the Tail of a Serpent, and Flaming Eyes.",
+   "say": "BAY-lam",
+   "episode": 5
+  },
+  {
+   "n": 52,
+   "name": "Alloces",
+   "alt": [
+    "Alocas",
+    "Allocer",
+    "Alocer"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 36,
+   "appearance": "He appears as a soldier riding a great horse; his face is like a lion's, very red, with flaming eyes, and his speech is hoarse and very big.",
+   "office": "He teaches astronomy and all the liberal sciences, and brings good familiars.",
+   "quote": "His Face is like that of a Lion, very Red, and having Flaming Eyes.",
+   "say": "AL-oh-seez",
+   "episode": 11
+  },
+  {
+   "n": 53,
+   "name": "Camio",
+   "alt": [
+    "Caim",
+    "Caym"
+   ],
+   "rank": [
+    "President"
+   ],
+   "legions": 30,
+   "appearance": "He appears first as the bird called a thrush, then as a man carrying a sharp sword, and seems to answer in burning ashes or coals of fire.",
+   "office": "A good disputer, he gives men the understanding of birds, the lowing of bullocks, the barking of dogs and the voice of the waters, and gives true answers about things to come.",
+   "quote": "He seemeth to answer in Burning Ashes, or in Coals of Fire.",
+   "say": "KAM-ee-oh",
+   "episode": 6
+  },
+  {
+   "n": 54,
+   "name": "Murmur",
+   "alt": [
+    "Murmus",
+    "Murmux"
+   ],
+   "rank": [
+    "Duke",
+    "Earl"
+   ],
+   "legions": 30,
+   "appearance": "He appears as a warrior riding a gryphon, with a ducal crown on his head, his ministers going before him sounding great trumpets.",
+   "office": "He teaches philosophy perfectly, and constrains the souls of the dead to come before the exorcist and answer his questions.",
+   "quote": "There do go before him those his Ministers with great Trumpets sounding.",
+   "say": "MUR-mur",
+   "note": "The entry calls him a Great Duke and an Earl, but the classified list at the end of the catalogue places him only among the Dukes.",
+   "episode": 9
+  },
+  {
+   "n": 55,
+   "name": "Orobas",
+   "alt": [],
+   "rank": [
+    "Prince"
+   ],
+   "legions": 20,
+   "appearance": "He appears first like a horse, and at the exorcist's command puts on the image of a man.",
+   "office": "He discovers all things past, present and to come, gives dignities, prelacies and the favour of friends and foes, and answers truly about divinity and the creation of the world. He is very faithful to the exorcist.",
+   "quote": "He is very faithful unto the Exorcist, and will not suffer him to be tempted of any Spirit.",
+   "say": "OR-oh-bass",
+   "episode": 6
+  },
+  {
+   "n": 56,
+   "name": "Gremory",
+   "alt": [
+    "Gamori",
+    "Gomory"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 26,
+   "appearance": "He appears in the form of a beautiful woman with a duchess's crown tied about her waist, riding a great camel.",
+   "office": "He tells of all things past, present and to come, and of hidden treasures and what they lie in, and procures the love of women both young and old.",
+   "quote": "appeareth in the Form of a Beautiful Woman, with a Duchess's Crown tied about her waist, and riding on a Great Camel.",
+   "say": "GREM-or-ee",
+   "episode": 7
+  },
+  {
+   "n": 57,
+   "name": "Ose",
+   "alt": [
+    "Osé",
+    "Oso",
+    "Voso",
+    "Oze"
+   ],
+   "rank": [
+    "President"
+   ],
+   "legions": 3,
+   "appearance": "He appears like a leopard at first, and after a little time puts on the shape of a man.",
+   "office": "He makes one cunning in the liberal sciences, gives true answers about divine and secret things, and can change a man into any shape so completely that the man believes he truly is that creature.",
+   "quote": "will not think any other thing than that he is in verity that Creature or Thing he is changed into.",
+   "say": "OH-zay",
+   "note": "The 1904 edition prints 3 legions, with the translator's footnote: should probably be 30. Later reprints silently print 30.",
+   "episode": 11
+  },
+  {
+   "n": 58,
+   "name": "Amy",
+   "alt": [
+    "Avnas"
+   ],
+   "rank": [
+    "President"
+   ],
+   "legions": 36,
+   "appearance": "He appears first in the form of a flaming fire, and after a while puts on the shape of a man.",
+   "office": "He makes one wonderfully knowing in astrology and all the liberal sciences, gives good familiars, and can reveal treasure that is kept by spirits.",
+   "quote": "appeareth at first in the Form of a Flaming Fire; but after a while he putteth on the Shape of a Man.",
+   "say": "AH-mee",
+   "episode": 6
+  },
+  {
+   "n": 59,
+   "name": "Oriax",
+   "alt": [
+    "Orias"
+   ],
+   "rank": [
+    "Marquis"
+   ],
+   "legions": 30,
+   "appearance": "He appears in the form of a lion with a serpent's tail, riding a mighty and strong horse, holding two great hissing serpents in his right hand.",
+   "office": "He teaches the virtues of the stars and the mansions of the planets, transforms men, and gives dignities, prelacies and favour with friends and foes.",
+   "quote": "he holdeth in his Right Hand two Great Serpents hissing.",
+   "say": "OR-ee-ax",
+   "episode": 8
+  },
+  {
+   "n": 60,
+   "name": "Vapula",
+   "alt": [
+    "Naphula"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 36,
+   "appearance": "He appears in the form of a lion with gryphon's wings.",
+   "office": "He makes men knowing in all handicrafts and professions, and in philosophy and other sciences.",
+   "quote": "His Office is to make Men Knowing in all Handcrafts and Professions, also in Philosophy, and other Sciences.",
+   "say": "VAP-yoo-la",
+   "episode": 6
+  },
+  {
+   "n": 61,
+   "name": "Zagan",
+   "alt": [
+    "Zagam"
+   ],
+   "rank": [
+    "King",
+    "President"
+   ],
+   "legions": 33,
+   "appearance": "He appears first as a bull with gryphon's wings, and after a while puts on human shape.",
+   "office": "He makes men witty, turns wine into water, blood into wine and water into wine, turns metals into the coin of the realm, and can even make fools wise.",
+   "quote": "He can turn Wine into Water, and Blood into Wine, also Water into Wine.",
+   "say": "ZAY-gan",
+   "episode": 5
+  },
+  {
+   "n": 62,
+   "name": "Volac",
+   "alt": [
+    "Valak",
+    "Valac",
+    "Valax",
+    "Valu",
+    "Ualac"
+   ],
+   "rank": [
+    "President"
+   ],
+   "legions": 38,
+   "appearance": "He appears like a child with angel's wings, riding on a two-headed dragon.",
+   "office": "He gives true answers about hidden treasures and tells where serpents may be seen, which he will bring to the exorcist without any force being used.",
+   "quote": "appeareth like a Child with Angel's Wings, riding on a Two-headed Dragon.",
+   "say": "VOH-lak",
+   "episode": 8
+  },
+  {
+   "n": 63,
+   "name": "Andras",
+   "alt": [],
+   "rank": [
+    "Marquis"
+   ],
+   "legions": 30,
+   "appearance": "He appears as an angel with a head like a black night raven, riding a strong black wolf and flourishing a sharp, bright sword.",
+   "office": "His office is to sow discords. If the exorcist is not careful, he will slay both him and his fellows.",
+   "quote": "If the Exorcist have not a care, he will slay both him and his fellows.",
+   "say": "AN-drass",
+   "episode": 7
+  },
+  {
+   "n": 64,
+   "name": "Haures",
+   "alt": [
+    "Hauras",
+    "Havres",
+    "Flauros"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 36,
+   "appearance": "He appears first like a leopard, mighty, terrible and strong; then, at command, in human shape with flaming, fiery eyes and a most terrible face.",
+   "office": "He gives true answers about past, present and future, but lies unless commanded into a triangle. He talks of the creation of the world and of how the spirits fell, and burns up the exorcist's enemies if desired.",
+   "quote": "He destroyeth and burneth up those who be the Enemies of the Exorcist should he so desire it",
+   "say": "HOW-rez",
+   "episode": 8
+  },
+  {
+   "n": 65,
+   "name": "Andrealphus",
+   "alt": [],
+   "rank": [
+    "Marquis"
+   ],
+   "legions": 30,
+   "appearance": "He appears first in the form of a peacock, with great noises, and after a time puts on human shape.",
+   "office": "He teaches geometry perfectly and everything to do with measurement and astronomy, and can transform a man into the likeness of a bird.",
+   "quote": "He can transform a Man into the Likeness of a Bird.",
+   "say": "an-dree-AL-fuss",
+   "episode": 8
+  },
+  {
+   "n": 66,
+   "name": "Cimejes",
+   "alt": [
+    "Cimeies",
+    "Kimaris",
+    "Cimeries"
+   ],
+   "rank": [
+    "Marquis"
+   ],
+   "legions": 20,
+   "appearance": "He appears like a valiant warrior riding a goodly black horse.",
+   "office": "He rules over all spirits in the parts of Africa, teaches grammar, logic and rhetoric perfectly, and discovers lost or hidden things and treasures.",
+   "quote": "He ruleth over all Spirits in the parts of Africa.",
+   "say": "kih-MAY-eez",
+   "note": "The 1904 page scan reads 20 legions; one modern retyped transcription misprints 30.",
+   "episode": 11
+  },
+  {
+   "n": 67,
+   "name": "Amdusias",
+   "alt": [
+    "Amdukias",
+    "Amduscias"
+   ],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 29,
+   "appearance": "He appears first like a unicorn, then stands in human shape at the exorcist's request, causing trumpets and all kinds of musical instruments to be heard, though not at once.",
+   "office": "He makes trees bend and incline at the exorcist's will, and gives excellent familiars.",
+   "quote": "Also he can cause Trees to bend and incline according to the Exorcist's Will.",
+   "say": "am-DOO-see-as",
+   "episode": 8
+  },
+  {
+   "n": 68,
+   "name": "Belial",
+   "alt": [],
+   "rank": [
+    "King"
+   ],
+   "legions": 80,
+   "appearance": "He appears in the form of two beautiful angels sitting in a chariot of fire, and speaks with a comely voice.",
+   "office": "Created next after Lucifer, he distributes presentations and senatorships and wins the favour of friends and foes, and gives excellent familiars. He must be given offerings and sacrifices, and even then he does not stay one hour in the truth unless constrained by divine power.",
+   "quote": "He appeareth in the Form of Two Beautiful Angels sitting in a Chariot of Fire.",
+   "say": "BEE-lee-al",
+   "note": "The 1904 edition prints 80 legions, with a footnote in which the translator suggests 30 and Crowley jokes that the actual number is 50. The de Laurence reprint lineage prints 50.",
+   "episode": 5
+  },
+  {
+   "n": 69,
+   "name": "Decarabia",
+   "alt": [
+    "Carabia"
+   ],
+   "rank": [
+    "Marquis"
+   ],
+   "legions": 30,
+   "appearance": "He appears first in the form of a star in a pentacle, and afterwards, at the exorcist's command, puts on the image of a man.",
+   "office": "He discovers the virtues of birds and precious stones, and makes the likeness of all kinds of birds fly before the exorcist, singing and drinking as natural birds do.",
+   "quote": "to make the Similitude of all kinds of Birds to fly before the Exorcist, singing and drinking as natural Birds do.",
+   "say": "deh-ka-RAH-bee-a",
+   "episode": 8
+  },
+  {
+   "n": 70,
+   "name": "Seere",
+   "alt": [
+    "Sear",
+    "Seir"
+   ],
+   "rank": [
+    "Prince"
+   ],
+   "legions": 26,
+   "appearance": "He appears in the form of a beautiful man riding a winged horse.",
+   "office": "He goes and comes, brings many things to pass suddenly, and carries anything wherever it is wanted, crossing the whole earth in the twinkling of an eye. He tells truly of theft and hidden treasure, and is of an indifferent good nature, willing to do whatever the exorcist desires.",
+   "quote": "He can pass over the whole Earth in the twinkling of an Eye.",
+   "say": "SEER",
+   "episode": 12
+  },
+  {
+   "n": 71,
+   "name": "Dantalion",
+   "alt": [],
+   "rank": [
+    "Duke"
+   ],
+   "legions": 36,
+   "appearance": "He appears as a man with many countenances, all men's and women's faces, holding a book in his right hand.",
+   "office": "He teaches all arts and sciences and declares anyone's secret counsel, for he knows the thoughts of all men and women and can change them at will. He causes love, and shows the likeness of any person in a vision, wherever in the world they are.",
+   "quote": "he knoweth the Thoughts of all Men and Women, and can change them at his Will.",
+   "say": "dan-TAL-ee-on",
+   "episode": 11
+  },
+  {
+   "n": 72,
+   "name": "Andromalius",
+   "alt": [],
+   "rank": [
+    "Earl"
+   ],
+   "legions": 36,
+   "appearance": "He appears in the form of a man holding a great serpent in his hand.",
+   "office": "He brings back both a thief and the stolen goods, discovers all wickedness and underhand dealing, punishes thieves and other wicked people, and discovers hidden treasures.",
+   "quote": "His Office is to bring back both a Thief, and the Goods which be stolen",
+   "say": "an-dro-MAL-ee-us",
+   "episode": 12
+  }
+ ]
+}

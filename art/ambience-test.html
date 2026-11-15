@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="data:,">
+<title>Ambience test — The Brass Vessel</title>
+<style>
+  body { background:#07060a; color:#efe6d6; font-family:"Iowan Old Style",Palatino,Georgia,serif; margin:2rem; }
+  h1 { font-weight:normal; color:#c9a45c; font-size:1.3rem; }
+  .row { margin:.8rem 0; display:flex; flex-wrap:wrap; gap:.5rem; align-items:center; }
+  .lab { font:.7rem ui-monospace,"SF Mono",Menlo,monospace; letter-spacing:.18em; text-transform:uppercase; color:#8b8496; width:5rem; }
+  button { background:transparent; color:#efe6d6; border:1px solid #8b8496; padding:.45rem .8rem; font:inherit; cursor:pointer; }
+  button:hover { border-color:#c9a45c; color:#c9a45c; }
+  button.on { border-color:#c9a45c; color:#07060a; background:#c9a45c; }
+  canvas { width:100%; max-width:900px; height:180px; border:1px solid #2a2633; display:block; }
+  #stat { font:.75rem ui-monospace,Menlo,monospace; color:#8b8496; white-space:pre; }
+</style>
+</head>
+<body>
+<h1>Ambience test bench</h1>
+<div class="row"><span class="lab">context</span><button id="start">Start audio</button><button id="stop">Stop bed</button></div>
+<div class="row" id="moods"><span class="lab">mood</span></div>
+<div class="row" id="sfx"><span class="lab">sfx</span></div>
+<div class="row"><span class="lab">volume</span><input id="vol" type="range" min="0" max="1" step="0.01" value="0.5"><span id="volv">0.50</span>
+  <button id="duck">Duck 0.55</button></div>
+<div class="row"><span class="lab">voice</span><input id="vfile" type="file" accept="audio/*"><audio id="voice" controls></audio></div>
+<canvas id="cv" width="900" height="180"></canvas>
+<div id="stat">not started</div>
+<script src="../js/ambience.js"></script>
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var moodBtns = {};
+  $('start').onclick = function () { Ambience.init(); $('start').classList.add('on'); Ambience.connectVoice($('voice')); };
+  $('stop').onclick = function () { Ambience.stop({ fade: 2 }); mark(); };
+  Ambience.MOODS.forEach(function (m) {
+    var b = document.createElement('button'); b.textContent = m; b.id = 'mood-' + m;
+    b.onclick = function () { Ambience.init(); Ambience.setMood(m, { fade: 3 }); mark(); };
+    $('moods').appendChild(b); moodBtns[m] = b;
+  });
+  Ambience.SFX.forEach(function (s) {
+    var b = document.createElement('button'); b.textContent = s; b.id = 'sfx-' + s;
+    b.onclick = function () { Ambience.init(); Ambience.sfx(s); };
+    $('sfx').appendChild(b);
+  });
+  function mark() { for (var k in moodBtns) moodBtns[k].classList.toggle('on', k === Ambience.mood); }
+  $('vol').oninput = function () { Ambience.setVolume(+this.value); $('volv').textContent = (+this.value).toFixed(2); };
+  var ducked = false;
+  $('duck').onclick = function () { ducked = !ducked; Ambience.duck(ducked ? 0.55 : 0, 0.6); this.classList.toggle('on', ducked); };
+  $('vfile').onchange = function () { if (this.files[0]) $('voice').src = URL.createObjectURL(this.files[0]); };
+
+  var cv = $('cv'), g = cv.getContext('2d'), td = null, fd = null;
+  // window.__rms(): instantaneous RMS / peak of the ambience master, for scripted checks.
+  window.__rms = function () {
+    var a = Ambience.analyser; if (!a) return null;
+    var d = new Float32Array(a.fftSize); a.getFloatTimeDomainData(d);
+    var s = 0, p = 0; for (var i = 0; i < d.length; i++) { s += d[i] * d[i]; if (Math.abs(d[i]) > p) p = Math.abs(d[i]); }
+    return { rms: Math.sqrt(s / d.length), peak: p };
+  };
+  function draw() {
+    requestAnimationFrame(draw);
+    var a = Ambience.analyser;
+    g.fillStyle = '#07060a'; g.fillRect(0, 0, cv.width, cv.height);
+    if (!a) return;
+    if (!td) { td = new Float32Array(a.fftSize); fd = new Uint8Array(a.frequencyBinCount); }
+    a.getByteFrequencyData(fd);
+    g.fillStyle = '#3a2f55';
+    for (var i = 0; i < 300; i++) {            // log-ish spectrum
+      var bin = Math.floor(Math.pow(i / 300, 2.2) * (fd.length - 1));
+      var h = fd[bin] / 255 * cv.height; g.fillRect(i * 3, cv.height - h, 2, h);
+    }
+    a.getFloatTimeDomainData(td);
+    g.strokeStyle = '#c9a45c'; g.beginPath();
+    var s = 0;
+    for (var j = 0; j < td.length; j++) {
+      var x = j / td.length * cv.width, y = cv.height / 2 - td[j] * cv.height * 2;
+      if (j) g.lineTo(x, y); else g.moveTo(x, y); s += td[j] * td[j];
+    }
+    g.stroke();
+    var rms = Math.sqrt(s / td.length), dbg = Ambience._debug();
+    $('stat').textContent = 'rms ' + (rms > 0 ? (20 * Math.log10(rms)).toFixed(1) : '-inf') + ' dBFS   ' + JSON.stringify(dbg);
+  }
+  draw();
+})();
+</script>
+</body>
+</html>

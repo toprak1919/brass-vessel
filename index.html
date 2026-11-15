@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07060a">
+<title>The Brass Vessel · Twelve nights with the Lesser Key of Solomon</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%2307060a%27/%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2711%27 fill=%27none%27 stroke=%27%23c9a45c%27 stroke-width=%272%27/%3E%3Cpath d=%27M16 7 24 21H8Z%27 fill=%27none%27 stroke=%27%23c9a45c%27 stroke-width=%271.5%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="backdrop" aria-hidden="true"></canvas>
+
+<!-- GATE -->
+<section id="gate" class="on">
+  <div id="gate-circle" aria-hidden="true"></div>
+  <div id="candles"></div>
+  <div class="gate-text">
+    <p class="k">A podcast you can answer back</p>
+    <h1>The Brass Vessel</h1>
+    <p class="sub">Twelve nights with the Lesser Key of Solomon</p>
+    <p class="hint" id="gate-hint">Light the five candles to enter</p>
+    <p class="fine">Headphones, low light. History, folklore and a very old book. Nothing here is a summoning. The voices are AI-generated, not human.</p>
+  </div>
+</section>
+
+<!-- APP -->
+<main id="app" hidden>
+  <header id="top">
+    <button class="icon" id="btn-nights" aria-label="Nights">☰</button>
+    <div class="brand"><span class="k">The Brass Vessel</span></div>
+    <div class="tally"><span id="tally-seals">0</span><i>/72 seals</i></div>
+    <button class="icon" id="btn-grim" aria-label="Grimoire">✶</button>
+  </header>
+
+  <aside id="nights">
+    <p class="k">The twelve nights</p>
+    <ol id="night-list"></ol>
+    <p class="fine" id="total-time"></p>
+  </aside>
+
+  <section id="stage">
+    <div id="ep-head">
+      <p class="k" id="ep-num"></p>
+      <h2 id="ep-title"></h2>
+      <p class="sub" id="ep-sub"></p>
+    </div>
+    <div id="script"></div>
+  </section>
+
+  <aside id="grim">
+    <nav class="tabs">
+      <button data-tab="seals" class="on">Seals</button>
+      <button data-tab="lexicon">Lexicon</button>
+      <button data-tab="you">You</button>
+    </nav>
+    <div class="tab on" id="tab-seals">
+      <input id="ask" type="search" placeholder="Consult the index: “invisible”, “love”, “king”…" autocomplete="off">
+      <p class="fine" id="ask-note"></p>
+      <div id="seal-grid"></div>
+      <p class="fine">These emblems are drawn fresh by this page from each name and number, in the manner of the old seals. They are not the seals printed in the manuscripts.</p>
+    </div>
+    <div class="tab" id="tab-lexicon"><p class="fine">Words you have been taught so far.</p><dl id="lex"></dl></div>
+    <div class="tab" id="tab-you">
+      <p class="k">Your disposition</p>
+      <div id="traits"></div>
+      <p class="fine" id="verdict"></p>
+      <p class="k" style="margin-top:1.6rem">Your own seal</p>
+      <p class="fine">Write a word, a name, a wish. Vowels and repeats fall away; what is left is traced on the wheel. It stays on this device.</p>
+      <input id="seal-word" type="text" maxlength="40" placeholder="a word or a name" autocomplete="off">
+      <div id="seal-own"></div>
+      <button class="ghost" id="reset">Forget everything and seal the vessel again</button>
+    </div>
+  </aside>
+
+  <footer id="player">
+    <div id="scrub"><div id="scrub-fill"></div><div id="scrub-marks"></div><div id="scrub-knob"></div></div>
+    <div class="row">
+      <span class="time" id="t-now">0:00</span>
+      <div class="ctl">
+        <button class="icon" id="back" aria-label="Back 15 seconds">↺<small>15</small></button>
+        <button id="play" aria-label="Play"><span></span></button>
+        <button class="icon" id="fwd" aria-label="Forward 15 seconds">↻<small>15</small></button>
+      </div>
+      <span class="time" id="t-dur">0:00</span>
+      <div class="opts">
+        <button class="pill" id="speed">1×</button>
+        <label class="pill" title="Ambience volume">air <input type="range" id="amb" min="0" max="100" value="55"></label>
+        <button class="pill" id="hands" title="When on, the Keeper does not wait for your answers">hands-free: off</button>
+      </div>
+    </div>
+  </footer>
+</main>
+
+<div id="manifest" hidden>
+  <button class="x" aria-label="Close">×</button>
+  <div class="seal"></div>
+  <div class="body"></div>
+</div>
+<div id="veil" hidden></div>
+
+<audio id="voice" preload="auto"></audio>
+<audio id="reply" preload="auto"></audio>
+
+<script src="data/episodes.js"></script>
+<script src="js/sigils.js"></script>
+<script src="js/ambience.js"></script>
+<script src="js/scenes.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

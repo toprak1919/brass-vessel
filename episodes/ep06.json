@@ -1,0 +1,257 @@
+{
+ "id": "ep06",
+ "num": 6,
+ "title": "The Faculty",
+ "subtitle": "The night school where the lecturers have wings",
+ "blurb": "Count what the seventy-two actually offer and the commonest gift is not gold or murder but an education: a walk through Hell's night school, and the one teacher who will not lie.",
+ "mood": "library",
+ "scene": "library",
+ "segments": [
+  {
+   "v": "keeper",
+   "t": "Last night was all crowns and trumpets. Tonight is quieter. Tonight I want you to do a small sum with me. Take the seventy-two spirits, one at a time, and ask each of them the only question a customer cares about. What do you actually do?"
+  },
+  {
+   "v": "keeper",
+   "t": "You would expect gold. You would expect love, and revenge, and a neighbour's cattle dropping dead in the field. They are in here. But count them. About a dozen spirits deal in love. A few more find treasure. Fewer than ten are much use for killing anybody. And then there is the largest group, by a distance. Count generously and you pass thirty. They teach."
+  },
+  {
+   "v": "keeper",
+   "t": "Astronomy. Logic. Geometry. Rhetoric, which is the art of speaking well. The properties of herbs. Hell, in this book, is largely a university. So tonight is enrolment. Twelve of the staff are waiting. Bring your grimoire. The first door on the left is the school of medicine."
+  },
+  {
+   "v": "keeper",
+   "t": "The fifth spirit is Marbas. He is a great president, governing thirty-six legions. President is a middling rank, you may remember, with seals made in mercury, the metal of the planet of scholars. Half of tonight's faculty hold it. Marbas arrives as a great lion, and only puts on human shape if the master asks him to. Here is his course description.",
+   "spirit": 5
+  },
+  {
+   "v": "book",
+   "t": "He answereth truly of things Hidden or Secret. He causeth Diseases and cureth them. Again, he giveth great Wisdom and Knowledge in Mechanical Arts; and can change men into other shapes.",
+   "src": "Goetia (1904), spirit 5"
+  },
+  {
+   "v": "keeper",
+   "t": "He causes diseases and cures them. In that order. I do not think that is a slip. Anyone who knew a physician four hundred years ago understood it perfectly. The person who knows how a body is mended is the person who knows how it is broken. Your doctor is a lion, and he could go either way."
+  },
+  {
+   "v": "keeper",
+   "t": "Across the corridor is his colleague. Buer, the tenth spirit, a great president over fifty legions. He teaches philosophy, both moral and natural, which is to say ethics and what we would now call science. He teaches logic, and the virtues of all herbs and plants. He heals all distempers in man. And he gives good familiars. A familiar is a small attendant spirit that stays with you. Think of a research assistant you can never dismiss.",
+   "spirit": 10,
+   "term": "familiar"
+  },
+  {
+   "v": "keeper",
+   "t": "If you have ever seen a picture of Buer, you saw a lion's head with five goat legs spinning around it like a wheel. Wonderful, and not in this book. That engraving was made in Paris in eighteen sixty-three, for a French dictionary of demons, long after our manuscripts. The Lesser Key says only that he appears in Sagittary, the sign of the Archer, and that this is his shape when the Sun is there.",
+   "term": "dictionnaire-infernal"
+  },
+  {
+   "v": "keeper",
+   "t": "Up the stairs now, and out onto the roof, into the cold. This is the observatory, and it belongs to Stolas. The thirty-sixth spirit, with twenty-six legions. Let the book introduce him.",
+   "spirit": 36,
+   "mood": "void",
+   "scene": "void"
+  },
+  {
+   "v": "book",
+   "t": "He is a Great and Powerful Prince, appearing in the Shape of a Mighty Raven at first before the Exorcist; but after he taketh the image of a Man. He teacheth the Art of Astronomy, and the Virtues of Herbs and Precious Stones.",
+   "src": "Goetia (1904), spirit 36"
+  },
+  {
+   "v": "keeper",
+   "t": "A raven. You may have been promised an owl. The owl is real, but he is later. The same Paris engraver drew Stolas as a crowned owl on long thin legs, and that is the picture the world kept. In our book he is a mighty raven who becomes a man, and he teaches three things. Stars, herbs, stones. That is the entire entry. No treasure, no threats. Just the syllabus."
+  },
+  {
+   "v": "keeper",
+   "t": "And those three belong together. To a scholar of that age, a star, a plant and a gem were chapters of one subject. Each planet was thought to pour its influence down into particular herbs and particular stones. That hidden power was called a virtue. Know the sky, and you know which leaf to pick, and when. So Stolas is teaching one course, not three, from the roof, at night, to anybody who asks.",
+   "term": "virtues"
+  },
+  {
+   "v": "keeper",
+   "t": "Two more work in this department. Foras, the thirty-first spirit, a mighty president with twenty-nine legions, appears as a strong man in human shape. No wings. Just a man. He teaches the virtues of herbs and precious stones, and logic and ethics in all their parts. If you ask, he makes men invisible, long-lived and eloquent. He also recovers things lost. Every school needs one of those.",
+   "spirit": 31
+  },
+  {
+   "v": "keeper",
+   "t": "And Amy, the fifty-eighth, a great president with thirty-six legions. He comes in first as a flaming fire, and after a while, the book says, he puts on the shape of a man. He makes you wonderfully knowing in astrology and all the liberal sciences. Those are the seven subjects of a medieval degree. Grammar, logic, rhetoric, arithmetic, geometry, music, astronomy. Picture a lecture hall lit entirely by its own lecturer.",
+   "spirit": 58,
+   "term": "liberal-arts"
+  },
+  {
+   "threshold": {
+    "id": "ep06-t1",
+    "q": "Stop on the landing a moment. Term has begun, and you may sign up for one class only. Which is it?",
+    "opts": [
+     {
+      "key": "a",
+      "label": "Medicine, with the lion",
+      "trait": "seeker",
+      "reply": "Brave. You have chosen the teacher who can make you ill in order to demonstrate the cure. But I understand it. Of everything on offer tonight, healing is the one gift a person might want for somebody else. Sit near the door, all the same. Lions do not always wait for the end of the lecture."
+     },
+     {
+      "key": "b",
+      "label": "The stars, with the raven",
+      "trait": "poet",
+      "reply": "Of course. Most people choose the roof. There is something about a teacher who waits until dark, and then points upward, and expects nothing but your attention. You will not get rich in that class. You will come down the stairs knowing the names of things, which is a different kind of wealth."
+     },
+     {
+      "key": "c",
+      "label": "Logic, with the plain man",
+      "trait": "skeptic",
+      "reply": "Sensible. No fire, no feathers. Just a strong man in human shape, teaching you how an argument holds together. And notice what you have done. You walked into a school staffed by demons and asked for the one subject that would help you doubt it. Foras would approve. He teaches ethics as well."
+     }
+    ]
+   }
+  },
+  {
+   "v": "keeper",
+   "t": "Then take your seat later, because there is a noise coming from the yard. That is the language faculty. They teach outside, since not all of their subjects are human. Barbatos is the eighth spirit, a great duke with thirty legions. Like Buer, he comes when the Sun is in Sagittary. Unlike Buer, he does not come alone. Four noble kings ride with him, and their companies of great troops. All that pageantry. And this is what he offers.",
+   "spirit": 8,
+   "mood": "storm",
+   "scene": "storm"
+  },
+  {
+   "v": "book",
+   "t": "He giveth understanding of the singing of Birds, and of the Voices of other creatures, such as the barking of Dogs.",
+   "src": "Goetia (1904), spirit 8"
+  },
+  {
+   "v": "keeper",
+   "t": "The barking of dogs. I find that almost unbearably sweet. Somebody, four centuries ago, wanted to know what the dog was saying, badly enough to ask a duke of Hell. Barbatos also breaks open enchanted treasure, knows things past and to come, and reconciles friends. But it is the birds everyone remembers."
+  },
+  {
+   "v": "keeper",
+   "t": "His colleague is the debater. Camio, the fifty-third spirit, a great president with thirty legions. He arrives as a thrush, a small brown songbird. Then he is a man carrying a sharp sword. And he seems to answer, the book says, in burning ashes, or in coals of fire. He is a good disputer, meaning he argues well. He gives the understanding of birds, of lowing bullocks, of barking dogs, and of the voice of the waters. He will teach you what the river is saying.",
+   "spirit": 53,
+   "mood": "fire",
+   "scene": "fire"
+  },
+  {
+   "v": "keeper",
+   "t": "Now the grand rooms at the front of the building. This is the faculty of getting on in the world. Naberius, the twenty-fourth spirit, a most valiant marquis with nineteen legions, is a black crane who flutters about the circle and speaks with a hoarse voice. He makes men cunning in all arts and sciences, but especially in rhetoric. And he restores lost dignities and honours. A hoarse bird who teaches public speaking. The book does not appear to notice the joke.",
+   "spirit": 24,
+   "mood": "court",
+   "scene": "court"
+  },
+  {
+   "v": "keeper",
+   "t": "Next door is Gusion, the eleventh spirit, a great and strong duke with forty legions. He appears, the book says, like a Xenopilus. Nobody knows what a Xenopilus is. Whatever he looks like, he tells all things past, present and to come, resolves any question you put to him, mends friendships, and gives honour and dignity. The examiner, I think. The one who already knows your answer.",
+   "spirit": 11
+  },
+  {
+   "v": "keeper",
+   "t": "Vapula, the sixtieth, is a great and mighty duke with thirty-six legions, and he is a lion with gryphon's wings. He makes men knowing in all handicrafts and professions, and in philosophy and other sciences too. The workshop and the seminar, in one room, and the book does not rank them.",
+   "spirit": 60
+  },
+  {
+   "v": "keeper",
+   "t": "And Haagenti, the forty-eighth, a president with thirty-three legions. A mighty bull, with the same gryphon's wings, until he is commanded into human shape. He makes men wise. He turns all metals into gold, which is alchemy, the one science every poor student hoped was real. And he changes wine into water, and water into wine. One direction is a famous miracle. The other is what a dishonest innkeeper does. The book offers both, without comment.",
+   "spirit": 48
+  },
+  {
+   "v": "keeper",
+   "t": "Before you sign anything, read the small print. This is still a catalogue of fallen spirits, and the book never lets you forget it. Scattered through the entries are warnings. This one deceives. That one answers truly only when compelled. There is an earl called Furfur, whom you will meet tomorrow night, and the book says he never speaks truth unless he is brought inside the triangle. Imagine a lecturer who is brilliant, patient, and sometimes wrong on purpose."
+  },
+  {
+   "v": "keeper",
+   "t": "Which is why the last office on the corridor matters. Orobas, the fifty-fifth spirit, a great and mighty prince with twenty legions. He appears first like a horse, and at the command of the exorcist, which is the book's word for whoever is doing the calling, he puts on the image of a man. He answers truly about divinity and the creation of the world. He gives dignities and prelacies, a prelacy being high office in the church, which tells you something about who was asking. And then this.",
+   "spirit": 55,
+   "mood": "dawn",
+   "scene": "dawn"
+  },
+  {
+   "v": "book",
+   "t": "He is very faithful unto the Exorcist, and will not suffer him to be tempted of any Spirit.",
+   "src": "Goetia (1904), spirit 55"
+  },
+  {
+   "v": "keeper",
+   "t": "Faithful. In a list of seventy-two, you learn to hear how rare that word is. He will not let the others work on you. Stolas has the stars, and Buer has the medicine. Orobas has something odder. He is on your side. Readers have singled him out for centuries as the honest one. The horse who stands between you and the rest of the faculty."
+  },
+  {
+   "threshold": {
+    "id": "ep06-t2",
+    "q": "So choose your tutor. One knows more than anyone in the building, but may lie to you. The other knows less, and never will. Who gets your evening?",
+    "opts": [
+     {
+      "key": "a",
+      "label": "The honest horse",
+      "trait": "seeker",
+      "reply": "Then you have chosen the way most readers of this book have chosen. Orobas is quietly one of its best loved names, and not for his power. A smaller truth you can lean your whole weight on is worth a great deal. Especially at night. Especially in a building like this one."
+     },
+     {
+      "key": "b",
+      "label": "The brilliant liar",
+      "trait": "scholar",
+      "reply": "Then you will have to check everything he tells you. Against other books, other teachers, your own eyes. Which, I should point out, is simply what scholarship is. You may be the only student here who ends up with a real education. I would still not lend him money."
+     },
+     {
+      "key": "c",
+      "label": "Neither. I'll read alone",
+      "trait": "skeptic",
+      "reply": "A reasonable answer, and a lonely one. Remember, though, that the people who wrote this book would have given anything for your choice. You have a library in your pocket. They had one borrowed book, a candle end, and a strong suspicion that everybody else had been told something they had not."
+     }
+    ]
+   }
+  },
+  {
+   "v": "keeper",
+   "t": "Keep that answer. Now ask the better question. Why is a book of demons shaped like a college prospectus? Look at who copied it. Not kings. Not witches in the woods. The historian Richard Kieckhefer gave them a name. The clerical underworld. Clerks. Students. Minor clergy. Men with a little Latin, a little ritual, and not much else. Men who had stood close enough to learning to know exactly what they were missing.",
+   "term": "clerical-underworld",
+   "mood": "library",
+   "scene": "library"
+  },
+  {
+   "v": "keeper",
+   "t": "Think what learning cost them. A single book could be worth months of wages. A university took years, and money, and the right friends. And every one of them knew somebody duller who had risen further, because he could talk well in front of a bishop. Hence rhetoric. Hence all those lost dignities, restored."
+  },
+  {
+   "v": "keeper",
+   "t": "So their daydream of power was not a throne. It was a tutor. Someone who would appear in the room at night and pour an entire science into your head before morning. On the second night we looked at the last book in this collection, the Ars Notoria. It has no demons in it at all. Only prayers, promising memory, eloquence and the liberal arts in a fraction of the usual time. The Goetia is the same hunger, in worse company.",
+   "term": "ars-notoria"
+  },
+  {
+   "v": "keeper",
+   "t": "And that is the part I find tender. Read past the lions and the fire, and these twelve are the teachers nobody had. Patient. Awake at any hour. Willing to explain the stars to a nobody. Somebody lonely and clever imagined a raven who would sit with him and teach him the sky. And the same hand wrote down that the staff might lie. He wanted a teacher, and he did not trust his luck. Both things are true at once. That is the faculty."
+  },
+  {
+   "v": "keeper",
+   "t": "Twelve seals are in your grimoire now. Tomorrow the tone drops. If tonight was what clever poor men wanted for their minds, tomorrow is what they wanted for everything else. Love they had not earned. Money that was not theirs. The seventh night is called Lovers, Liars and Thieves. You will not need a pencil."
+  },
+  {
+   "v": "keeper",
+   "t": "Until then. Class dismissed. Leave by the main door. If a horse offers to walk you home, say yes. If anything else offers, thank it kindly, and ask it to step into the triangle first."
+  }
+ ],
+ "glossary": [
+  {
+   "id": "familiar",
+   "term": "Familiar",
+   "def": "An attendant spirit said to serve a magician. Several spirits of the Goetia are described as giving good familiars."
+  },
+  {
+   "id": "dictionnaire-infernal",
+   "term": "Dictionnaire Infernal",
+   "def": "A French dictionary of demons by Collin de Plancy. Its illustrated edition of eighteen sixty-three, with engravings after Louis Le Breton, gave many Goetic spirits the faces people know today, including the wheel-legged Buer and the owl Stolas. Those pictures are not in the Lesser Key."
+  },
+  {
+   "id": "virtues",
+   "term": "Virtues of herbs and stones",
+   "def": "In older natural philosophy, the hidden powers of a plant or gem, often thought to flow down from a particular planet. Not moral virtue: closer to our word properties."
+  },
+  {
+   "id": "liberal-arts",
+   "term": "Liberal arts",
+   "def": "The seven subjects of a medieval education: grammar, logic and rhetoric, then arithmetic, geometry, music and astronomy. The Goetia also calls them the liberal sciences."
+  },
+  {
+   "id": "clerical-underworld",
+   "term": "Clerical underworld",
+   "def": "The historian Richard Kieckhefer's phrase for the clerks, students and minor clergy who had enough Latin and ritual training to copy and use books of spirit magic in the late Middle Ages."
+  },
+  {
+   "id": "ars-notoria",
+   "term": "Ars Notoria",
+   "def": "The notary art: medieval prayers, in circulation by the thirteenth century, that promise rapid learning and a perfect memory. It became the fifth book of the Lesser Key, though some manuscripts omit it."
+  }
+ ]
+}

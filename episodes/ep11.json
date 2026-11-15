@@ -1,0 +1,230 @@
+{
+ "id": "ep11",
+ "num": 11,
+ "title": "The Demon in the Mirror",
+ "subtitle": "Seventy-two faces, and one of them is yours",
+ "blurb": "Crowley moves the demons out of Hell and into your head, the sceptic takes the floor, and a four-hundred-year-old list becomes a cast of characters.",
+ "mood": "void",
+ "scene": "void",
+ "segments": [
+  {
+   "v": "keeper",
+   "t": "Picture a man walking toward you out of the dark, with a book in his right hand. He has a face. Then you see that he has another. And another. Men's faces, women's faces, all of them his, all of them looking at you. The book calls him a duke. And it says he knows what you are thinking."
+  },
+  {
+   "v": "book",
+   "t": "His Office is to teach all Arts and Sciences unto any; and to declare the Secret Counsel of any one; for he knoweth the Thoughts of all Men and Women, and can change them at his Will.",
+   "src": "Goetia (1904), spirit 71"
+  },
+  {
+   "v": "keeper",
+   "t": "Dantalion. The seventy-first spirit, a great and mighty duke with thirty-six legions, a man with many faces and a book in his hand. He teaches every art and science. He causes love. He can show you the likeness of any person, wherever in the world they are. And he knows the thoughts of all men and women, and can change them. Now be honest with me. Does that sound like a monster? Or does it sound like something you already carry in your pocket? His seal is in your grimoire now.",
+   "spirit": 71
+  },
+  {
+   "v": "keeper",
+   "t": "Good evening. This is the eleventh night. Last night we met the men who opened the book, and tonight we keep one of them a little longer. Because in nineteen oh four Aleister Crowley did something to this book that it has never recovered from. He moved the demons. Not out of Hell. Into you. He did it in that short, swaggering essay at the front of his edition. You heard one line of it last night. Here it is again, with the swagger left in.",
+   "mood": "library",
+   "scene": "library"
+  },
+  {
+   "v": "book",
+   "t": "Say you so? I can, and will. The spirits of the Goetia are portions of the human brain.",
+   "src": "Crowley, The Initiated Interpretation of Ceremonial Magic, 1904"
+  },
+  {
+   "v": "keeper",
+   "t": "Portions of the human brain. He gives an example, too. When Solomon says a certain spirit teaches logic, Crowley says, what that really means is that the logical parts of my own brain can be woken up and trained by the ceremony that carries that spirit's name. People now call this the psychological model. The seventy-two are not a census of Hell. They are a map of one head. Its appetites, its talents, its fears.",
+   "term": "psychological-model"
+  },
+  {
+   "v": "keeper",
+   "t": "On this reading, everything you met on the third night changes its meaning. The circle is not a wall against anything. It is concentration, a line drawn around your attention. The triangle is not a cage. It is a place to put a feeling, outside yourself, so that you can finally look at it. And the conjuror shouting names in the dark is a person having a very stern conversation with himself."
+  },
+  {
+   "v": "keeper",
+   "t": "Years later, the Swiss psychiatrist Carl Jung described something he called the shadow. Everything in you that you would rather not own. The greed, the rage, the wanting. Ignore it, he said, and it does not leave. It waits. Jung was not writing about this book. But readers of this book heard an echo, and they have been borrowing his word ever since.",
+   "term": "shadow"
+  },
+  {
+   "v": "keeper",
+   "t": "Now the honest part. This is one reading among several, and Crowley himself wavered on it later. People who believed in the older sense, who thought something truly came, would call it a dodge. A way to keep the thrill and drop the risk. Nobody four hundred years ago fasted and trembled in a circle in order to meet his own bad temper. Keep that objection. It is a good one."
+  },
+  {
+   "threshold": {
+    "id": "ep11-t1",
+    "q": "So let me ask you the question this whole night turns on. The seventy-two. Where do you think they live?",
+    "opts": [
+     {
+      "key": "a",
+      "label": "Out there, somewhere",
+      "trait": "seeker",
+      "reply": "Then you are in old company. Nearly everyone who copied this book before nineteen hundred agreed with you, and took precautions accordingly. I will not tell you that you are wrong. I will only say that nothing out there has ever been caught on its way in. Hold the thought loosely, and the lamp tightly."
+     },
+     {
+      "key": "b",
+      "label": "In here, in my head",
+      "trait": "skeptic",
+      "reply": "Crowley's answer, and the tidy one. Nothing to prove, and nothing to fear but yourself. Though I notice that is not a small thing to fear. If they live in your head, you have been carrying all seventy-two around since you were born, and nobody ever gave you the list. Until now."
+     },
+     {
+      "key": "c",
+      "label": "On the page",
+      "trait": "poet",
+      "reply": "The librarian's answer, and secretly my favourite. They live in ink. They are as real as Hamlet, who never existed and has outlived everyone who ever watched him. A thing on a page can still change a life. Ask anyone who was handed the right book at the wrong age."
+     }
+    ]
+   }
+  },
+  {
+   "v": "keeper",
+   "t": "Wherever you put them, the book seems to have known that the mind was the real battleground. Because it holds a spirit whose whole trick is belief. Ose. A great president with three legions in the printed text, though its editor suspected thirty was meant. He comes first as a leopard, and after a little while puts on the shape of a man. He makes you clever in the liberal sciences, which is the old name for a proper education, and answers truly about divine and secret things. And then there is his other gift.",
+   "spirit": 57,
+   "mood": "court",
+   "scene": "court",
+   "term": "liberal-sciences"
+  },
+  {
+   "v": "book",
+   "t": "to change a Man into any Shape that the Exorcist pleaseth, so that he that is so changed will not think any other thing than that he is in verity that Creature or Thing he is changed into.",
+   "src": "Goetia (1904), spirit 57"
+  },
+  {
+   "v": "keeper",
+   "t": "Read that slowly. He does not simply turn you into a wolf. He makes you unable to think you are anything else. The older version, the one Weyer printed and Scot put into English, is blunter. There, he brings a man to such madness that he thinks he is a king, or a pope, or that he wears a crown on his head. And it lasts, the old text says, one hour."
+  },
+  {
+   "v": "keeper",
+   "t": "One hour of being pope. I think that is the book's own small parable about delusion, and I do not think it is unkind. Belief is not a fault in foolish people. It is what minds do. Tell a mind firmly enough what it is and it will move in, and furnish the place. The crown feels heavy. The crowd sounds real. The only tell is that nobody else can see it."
+  },
+  {
+   "v": "keeper",
+   "t": "Which brings us to the sceptic, who deserves the floor, and deserves it without a sneer. Here is the case at full strength. In all the centuries of this book, no spirit has ever been demonstrated. Not once, under any conditions a stranger could check. Every account we have is one person's word, often written down long afterwards.",
+   "mood": "crypt",
+   "scene": "crypt"
+  },
+  {
+   "v": "keeper",
+   "t": "And the experiences have ordinary explanations. Take someone who expects to see something. Keep them awake. Fill a small room with incense and one moving candle flame, frighten them thoroughly, and ask them to stare into an empty triangle. A human brain in that state will supply a face. That is suggestion, and it needs no devil. Notice that Crowley and the sceptic agree on nearly all of it.",
+   "term": "suggestion"
+  },
+  {
+   "v": "keeper",
+   "t": "So why does the catalogue still comfort people? Because naming a fear makes it smaller. A dread with no name is the size of the whole night. A dread with a name, a rank and a count of legions is the size of a paragraph. That is what a list is. A spell against chaos. Seventy-two is a great many demons. But you can count to it."
+  },
+  {
+   "v": "keeper",
+   "t": "And look what has become of the list. In twenty eighteen a horror film called Hereditary put the name Paimon in front of millions of people who had never heard the word grimoire. You met him on the fifth night. He was only the latest. For decades, video games, role-playing games, comics, animation and heavy metal have borrowed these names by the armful. Stolas, from the sixth night, now usually drawn as an owl, has become oddly beloved online.",
+   "mood": "fire",
+   "scene": "fire"
+  },
+  {
+   "v": "keeper",
+   "t": "Think how strange that is. A manuscript four hundred years old, copied by hand and kept well hidden, is now a shared cast of characters, like the Greek gods or the knights of the Round Table. Nobody owns them. And the modern eye reads them the way it reads any character. As a type. As a mirror. Let me show you, with two riders."
+  },
+  {
+   "v": "book",
+   "t": "His Face is like that of a Lion, very Red, and having Flaming Eyes. His Speech is hoarse and very big.",
+   "src": "Goetia (1904), spirit 52"
+  },
+  {
+   "v": "keeper",
+   "t": "Alloces. A duke, great and strong, with thirty-six legions. He comes as a soldier on a great horse, with that red lion's face and that enormous hoarse voice. And what does this furnace of a creature do? He teaches astronomy and all the liberal sciences, and brings good familiars, meaning helpful attendant spirits. A modern reader knows him at once. The terrifying teacher, who shouted, and was right, and whom you never forgot. That is an archetype. A figure so old and so common that everyone has met one.",
+   "spirit": 52,
+   "term": "archetype"
+  },
+  {
+   "v": "book",
+   "t": "appearing like a Valiant Warrior riding upon a goodly Black Horse. He ruleth over all Spirits in the parts of Africa.",
+   "src": "Goetia (1904), spirit 66"
+  },
+  {
+   "v": "keeper",
+   "t": "Cimejes. A marquis, mighty and strong, a valiant warrior on a fine black horse. He has twenty legions behind him, a modest command for so grand a rider. He teaches grammar, logic and rhetoric perfectly, and he finds things lost or hidden, treasure included. He is the very spirit Crowley chose for his example, the one who teaches logic. A knight who corrects your grammar and brings back what you lost. Half the fantasy novels on your shelf have him in them.",
+   "spirit": 66
+  },
+  {
+   "v": "keeper",
+   "t": "But look again at one line. He rules all spirits in the parts of Africa. Handle that with care. It tells you nothing about Africa. It tells you about the Europeans who wrote it, for whom a whole continent was a far edge of the map, where a demon marquis might as well be governor. The book is a mirror there too. It shows the mind that made it, blind spots included."
+  },
+  {
+   "threshold": {
+    "id": "ep11-t2",
+    "q": "Seventy-two faces in the glass, and I think one of them always looks a little familiar. Of the ones you met tonight, which face is yours?",
+    "opts": [
+     {
+      "key": "a",
+      "label": "The one with many faces",
+      "trait": "poet",
+      "reply": "Dantalion. Then you are a slightly different person in every room, and you watch people closely enough to guess what they are thinking. That is not dishonesty. It is attention. Only remember that he carries a book. Even the reader of minds has to look things up."
+     },
+     {
+      "key": "b",
+      "label": "The finder of lost things",
+      "trait": "scholar",
+      "reply": "Cimejes. The patient one, with the grammar and the black horse. You are the person people call when something has gone missing. A fact, a file, a word on the tip of the tongue. It is an unglamorous gift, and the world runs on it. Ride carefully."
+     },
+     {
+      "key": "c",
+      "label": "The leopard who believes",
+      "trait": "seeker",
+      "reply": "Ose. Brave of you. You know how it feels to become a thing entirely, for an hour, and to come back blinking. Actors know it. So do people in love. The trick, the old text hints, is the coming back. Keep one hand on the door."
+     }
+    ]
+   }
+  },
+  {
+   "v": "keeper",
+   "t": "Whichever face you chose, notice what you just did. You looked down a list of devils and found yourself in it, in a few seconds. That is the oldest use of this book, and nobody admits to it. Crowley, in a snappish aside in that same essay, says the world of magic is a mirror, and that whoever sees muck in it is muck. Rude. Not wrong."
+  },
+  {
+   "v": "keeper",
+   "t": "So, a direct word, if you are new and you feel the pull. Curiosity is fine. It may be the best thing about you. Read widely. Read the believers, the debunkers and the historians, and notice where they disagree. And be wary of anyone selling certainty. Anyone who wants money for the next secret, or wants your obedience, has told you all you need to know about them."
+  },
+  {
+   "v": "keeper",
+   "t": "This book has always been safest in the hands of people who can hold two thoughts at once. That it is a remarkable human document, and that nothing in it has ever been shown to be true. That it is paperwork, and that it raises the hair on your arms. You have been doing it for eleven nights."
+  },
+  {
+   "v": "keeper",
+   "t": "Here is where I land. Whether the seventy-two live in a lake in Babylon or in the folds of your own head, the book works the same way. You open it. You read a name. And something looks back that you half recognise. It is a mirror with seventy-two faces. Dantalion was never the odd one out. He was the book's self-portrait.",
+   "mood": "void",
+   "scene": "void"
+  },
+  {
+   "v": "keeper",
+   "t": "Tomorrow is the last night. The License to Depart. Every ceremony in this book ends the same way, with a formal and rather courteous goodbye, and so shall we. There are three names left to say. Then we close the circle, and I tell you where to read next."
+  },
+  {
+   "v": "keeper",
+   "t": "Until then. Sixty-nine seals in your grimoire, if you have been paying attention. Go and wash your face, and have a look in the glass while you are there. Count how many look back. If it is more than one, be polite. Say good night to all of them."
+  }
+ ],
+ "glossary": [
+  {
+   "id": "psychological-model",
+   "term": "The Psychological Model",
+   "def": "The modern reading, launched by Aleister Crowley in nineteen oh four, that the spirits are parts of the magician's own mind rather than outside beings. One interpretation among several."
+  },
+  {
+   "id": "shadow",
+   "term": "The Shadow",
+   "def": "Carl Jung's name for the parts of yourself you would rather not admit to. Later readers of the Goetia borrowed the idea; Jung was not writing about this book."
+  },
+  {
+   "id": "liberal-sciences",
+   "term": "Liberal Sciences",
+   "def": "The old school curriculum of seven subjects: grammar, logic, rhetoric, arithmetic, geometry, music and astronomy. A surprising number of the seventy-two teach them."
+  },
+  {
+   "id": "suggestion",
+   "term": "Suggestion",
+   "def": "The ordinary tendency of a mind to see and feel what it has been led to expect, especially when tired, frightened or staring into the dark."
+  },
+  {
+   "id": "archetype",
+   "term": "Archetype",
+   "def": "A stock figure that turns up again and again in stories everywhere, such as the stern teacher, the trickster or the knight."
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "id": "ep04",
+ "num": 4,
+ "title": "The Courts of Hell",
+ "subtitle": "Seven ranks, seven metals, and exactly one knight",
+ "blurb": "Hell turns out to be a feudal kingdom with titles, office hours and a head count, and tonight you meet the middle of its table.",
+ "mood": "court",
+ "scene": "court",
+ "segments": [
+  {
+   "v": "keeper",
+   "t": "Picture a banquet hall with no walls you can see. One long table, running off into the dark. At every place there is a small card with a name on it, and under the name, a title. Last night I showed you the circle and the triangle, the furniture on your side of the line. Tonight we look across it. Hell, it turns out, has a seating plan."
+  },
+  {
+   "v": "keeper",
+   "t": "This is the thing nobody expects from the Lesser Key. You open a book of demons braced for chaos. What you get is a kingdom. Kings, and under them dukes, princes, marquises, earls. The titles are lifted straight from the courts of Europe. The men who built this list could imagine a great many horrors. They could not imagine a place without a nobility."
+  },
+  {
+   "v": "keeper",
+   "t": "There are seven ranks. Kings. Dukes. Princes, whom the book sometimes calls prelates, a word for a senior churchman. Marquises. Presidents, which sounds modern and is not. It meant someone who presides, the head of a council or a college. Earls, also called counts. And at the very bottom, one knight. Not an order of knights. One. He closes the night.",
+   "term": "president"
+  },
+  {
+   "v": "keeper",
+   "t": "Go by the entries, and the seventy-two share out like this. Nine kings. Twenty-three dukes, the biggest crowd in the room. Seven princes. Fifteen marquises. Fourteen presidents. Twelve earls. One knight. That adds up to eighty-one, and there are only seventy-two spirits. Nobody miscounted. Nine of them hold two titles at once."
+  },
+  {
+   "v": "book",
+   "t": "It will be remarked that several among the above Spirits possess two titles of different ranks.",
+   "src": "Goetia (1904), editor's note to the classified list"
+  },
+  {
+   "v": "keeper",
+   "t": "Think of a count who also chairs a company, and would like both on the card, please. Six of those nine are on tonight's guest list. Tonight is the middle of the table, the ones with two jobs and no crown."
+  },
+  {
+   "v": "keeper",
+   "t": "Now the detail I love most. Each rank has a metal. The seals, those signatures collecting in your grimoire, are to be made in metal, the book says, and which metal depends on the title. Gold for kings, the metal of the sun. Copper for dukes, for Venus. Tin for princes, for Jupiter. Silver for marquises, for the moon. Lead for the knight, for Saturn.",
+   "term": "planetary-metals",
+   "mood": "fire",
+   "scene": "fire"
+  },
+  {
+   "v": "keeper",
+   "t": "Then it gets odd. Presidents get mercury. Quicksilver. A seal made in a metal that runs across the table. And earls get copper and silver, mixed in equal parts. Seven ranks, seven planets of the old sky, and yet Mars and his iron are nowhere. The editor noticed. He suggests the earls were probably meant to have iron all along. Even Hell's paperwork has errata."
+  },
+  {
+   "threshold": {
+    "id": "ep04-t1",
+    "q": "So, before we go further down the table. If a card with your name on it were waiting there, which title would you want written underneath?",
+    "opts": [
+     {
+      "key": "a",
+      "label": "King, sealed in gold",
+      "trait": "seeker",
+      "reply": "Ambitious. Then know the terms. There are only nine crowns, the gold is real, and the book fences its kings into strict office hours, as you are about to hear. The head of the table is the most watched seat in the room. I would take it too, mind. I just would not expect to enjoy it."
+     },
+     {
+      "key": "b",
+      "label": "President, in quicksilver",
+      "trait": "scholar",
+      "reply": "A good choice, and an underrated one. The presidents are the working experts of this book. They teach, they answer, they know where things are kept. Nobody writes ballads about a president. But when a king needs something understood, I suspect he sends for one. You will meet four of them tonight."
+     },
+     {
+      "key": "c",
+      "label": "I'd refuse the seat",
+      "trait": "skeptic",
+      "reply": "Sensible. You have noticed that every chair at this table has another chair above it. Even the kings, as you will hear, answer to somebody. The only person in the whole arrangement without a title is the one holding the book. Keep that in mind. It may be the best seat in the house."
+     }
+    ]
+   }
+  },
+  {
+   "v": "keeper",
+   "t": "Whichever card you chose, it comes with soldiers. Every entry in the catalogue ends the same way, with a count of legions. A legion was the great unit of the Roman army, a few thousand men. The Goetia never says how many spirits make an infernal one. It just hands you the totals, like a clerk. Sixty legions here. Nineteen there. Two hundred for the grandest of the kings.",
+   "term": "legion",
+   "mood": "library",
+   "scene": "library"
+  },
+  {
+   "v": "keeper",
+   "t": "An older version of the list is less shy. Reginald Scot printed it in English in fifteen eighty-four, as a sceptic, to show how absurd he found it. At the bottom of the roll he sets the reader a sum."
+  },
+  {
+   "v": "book",
+   "t": "Note that a legion is six thousand six hundred and sixty-six, and now by multiplication count how many legions do arise out of every particular.",
+   "src": "Reginald Scot, The Discoverie of Witchcraft (1584), book 15, chapter 2"
+  },
+  {
+   "v": "keeper",
+   "t": "So let us play, and I do mean play. Add up every legion the Goetia prints and you pass two thousand six hundred. Multiply by Scot's figure. You get something over seventeen million spirits, under seventy-two commanders. That is play, not theology. But it feels like a census. Somebody counted. And the seventy-two are not the top of it. Above them, the book sets four more."
+  },
+  {
+   "v": "book",
+   "t": "These seventy-two Kings be under the Power of Amaymon, Corson, Zimimay or Ziminiar, and Goap, who are the Four Great Kings ruling in the Four Quarters, or Cardinal Points.",
+   "src": "Goetia (1904), Observations",
+   "mood": "void",
+   "scene": "void"
+  },
+  {
+   "v": "keeper",
+   "t": "East, west, north and south, it goes on, in that order. Amaymon, Corson, Ziminiar, Goap. And they are not to be called, the book says, except upon great occasions. You do not summon the board. You ask the board to send someone down. Other grimoires give these four quite different names, which tells you how old the idea is, and how unsettled.",
+   "term": "four-kings"
+  },
+  {
+   "v": "keeper",
+   "t": "Then the pettiest rule in the text, and my favourite. Each rank keeps hours. The book's word is bound, meaning the hours in which a spirit of that rank can be held to its task. Kings, from nine in the morning until noon, and again from three until sunset. So a king takes a long lunch. Here are some of the others."
+  },
+  {
+   "v": "book",
+   "t": "Dukes may be bound from Sunrise till Noonday in Clear Weather; Prelates may be bound any hour of the Day; Knights may from Dawning of Day till Sunrise, or from four o'clock till Sunset.",
+   "src": "Goetia (1904), Observations"
+  },
+  {
+   "v": "keeper",
+   "t": "Dukes, only in clear weather. And earls, the book adds, at any hour of the day, so long as it is in the woods, or some place where people do not go and there is no noise. An earl wants quiet."
+  },
+  {
+   "v": "keeper",
+   "t": "Now look at who has no card on the table. Read all seventy-two names and you will not find Satan, or Beelzebub. Lucifer has no entry and no seal. His name surfaces only in passing, inside the files of two kings you will meet tomorrow, the way a clerk mentions the owner. The management is offstage. The Goetia lists only the ones who, in the story, can be reached. So let us walk the table, starting with the one who knows the four great kings personally."
+  },
+  {
+   "v": "book",
+   "t": "He appeareth when the Sun is in some of the Southern Signs, in a Human Shape, going before Four Great and Mighty Kings, as if he were a Guide to conduct them along on their way.",
+   "src": "Goetia (1904), spirit 33",
+   "mood": "court",
+   "scene": "court"
+  },
+  {
+   "v": "keeper",
+   "t": "Gaap. A great president and a mighty prince, with sixty-six legions. He can make you knowing in philosophy and the liberal sciences, or he can make you ignorant, whichever is asked. He causes love or hatred. He tells past, present and future, and carries people very speedily from one kingdom to another. He also delivers familiars out of the keeping of other magicians. A familiar is an attendant spirit, a supernatural servant. Apparently they can be poached. And yes, his name sounds like Goap, the king in the south. The book never untangles the two. Below him sit the earls, each with a second title.",
+   "spirit": 33,
+   "term": "familiar"
+  },
+  {
+   "v": "book",
+   "t": "He appeareth at the first show in the form of an ugly Viper, then at the command of the Magician he putteth on a Human shape with Great Teeth, and two Horns, carrying a bright and sharp Sword in his hand.",
+   "src": "Goetia (1904), spirit 17"
+  },
+  {
+   "v": "keeper",
+   "t": "Botis. A great president and an earl, ruling sixty legions. The man with the teeth and the sword is not obviously an improvement on the viper. And his office? He tells all things past and to come, and he reconciles friends and foes. The viper is a peacemaker. This book does that constantly. The shape says run. The job description says mediator.",
+   "spirit": 17
+  },
+  {
+   "v": "keeper",
+   "t": "Beside him, Marax. An earl and a president, with thirty legions, who appears as a great bull with a man's face. He makes people very knowing in astronomy and all the liberal sciences, the old name for a university education. And he gives good, wise familiars, who know the virtues of herbs and precious stones.",
+   "spirit": 21
+  },
+  {
+   "v": "keeper",
+   "t": "Then Ipos, an earl and a mighty prince, with thirty-six legions. He arrives as an angel with a lion's head, a goose's foot and a hare's tail. He knows all things past, present and to come, and he makes men witty and bold. The book's own closing list forgets that he is an earl and files him with the princes only.",
+   "spirit": 22
+  },
+  {
+   "v": "book",
+   "t": "He teacheth all Arts and Sciences in an instant, and is an Author of Bloodshed and Manslaughter.",
+   "src": "Goetia (1904), spirit 25"
+  },
+  {
+   "v": "keeper",
+   "t": "That is Glasya-Labolas. A mighty president and earl, thirty-six legions, who shows himself as a dog with wings like a gryphon. Teaching and manslaughter, in one breath, with no change of tone. He also tells things past and to come, causes the love of friends and foes, and can make a man invisible. The winged dog is the one guest tonight I would not seat near the knives.",
+   "spirit": 25
+  },
+  {
+   "v": "keeper",
+   "t": "And Ronove, a marquis and a great earl, with nineteen legions. All the book will say of his looks is that he appears in the form of a monster. After lion heads and goose feet, the scribe simply gives up. But the monster teaches rhetoric very well, and gives good servants, knowledge of tongues, and favour with friends or foes. The least describable thing in the room is the one who teaches you to speak.",
+   "spirit": 27
+  },
+  {
+   "threshold": {
+    "id": "ep04-t2",
+    "q": "You have seen what this court trades in. Soldiers, answers, and a way with words. If one of them offered you a single gift, which would you take?",
+    "opts": [
+     {
+      "key": "a",
+      "label": "Legions at my command",
+      "trait": "seeker",
+      "reply": "Then you want a king's portion, and you are in honest company. But look again at the files. Almost nobody in this book is asked for an army. The legions are listed like acreage, a measure of standing. What people asked for was smaller and closer to home. Still. A few thousand at your back on a dark road. I see the appeal."
+     },
+     {
+      "key": "b",
+      "label": "To know things instantly",
+      "trait": "scholar",
+      "reply": "Of course. That is the request this book expects. Count the offices from tonight alone. Astronomy, philosophy, the liberal sciences, things past and to come. Whoever copied these pages wanted, more than gold, to stop being ignorant. I find that the most human thing in the whole catalogue. And the most dangerous, naturally."
+     },
+     {
+      "key": "c",
+      "label": "Wit and a ready tongue",
+      "trait": "poet",
+      "reply": "Ah. The gift of Ipos, and of Ronove. Witty and bold. It sounds like the modest wish, and I think it is the shrewdest. Armies desert, and facts go stale. But the person who speaks well walks into any court, above or below, and is offered a chair. You may have it already."
+     }
+    ]
+   }
+  },
+  {
+   "v": "keeper",
+   "t": "Whatever you took, there is one seat left, down at the cold end by the door. The book gives knights only the thin edges of the day. From first light until sunrise, or from four o'clock until the sun goes down. So picture that grey hour, and someone riding out of it.",
+   "mood": "dawn",
+   "scene": "dawn"
+  },
+  {
+   "v": "book",
+   "t": "He is a Knight, and appeareth in the Form of a Cruel Old Man with a long Beard and a hoary Head, riding upon a pale-coloured Horse, with a Sharp Weapon in his hand.",
+   "src": "Goetia (1904), spirit 50"
+  },
+  {
+   "v": "keeper",
+   "t": "Furcas. The only knight among the seventy-two, with twenty legions and a seal in lead. Every instinct says executioner. And his office is to teach. Philosophy, astrology, rhetoric, logic, the reading of palms, and divination by fire, in all their parts, the book says, and perfectly. He is a professor. A frightening, underpromoted professor on a horse the colour of ash. His seal is in your grimoire now, beside the six who outrank him.",
+   "spirit": 50
+  },
+  {
+   "v": "keeper",
+   "t": "So why does it matter that Hell has a seating plan? Because of what a hierarchy does to fear. The unknown is hardest to bear when it has no shape. Give it titles, and metals, and office hours, and it becomes a place with procedures. If there are ranks, there are rules. If there are rules, they can be learned, by you, in a chair, with a book. Whether or not anything ever answered, that was the promise of these pages. The dark could be read.",
+   "mood": "court",
+   "scene": "court"
+  },
+  {
+   "v": "keeper",
+   "t": "Tomorrow we go to the head of the table. Nine crowns, nine seals in gold, and the manners the book expects you to show them. The fifth night is called The Kings."
+  },
+  {
+   "v": "keeper",
+   "t": "Until then. Mind the stairs on your way up. And if, in that grey hour before sunrise, you pass an old man on a pale horse, do nod to him. He has been waiting a very long time for a promotion."
+  }
+ ],
+ "glossary": [
+  {
+   "id": "president",
+   "term": "President",
+   "def": "One of the seven ranks of the Goetia. The word meant one who presides, such as the head of a council or college; the book gives presidents seals of mercury."
+  },
+  {
+   "id": "planetary-metals",
+   "term": "Planetary metals",
+   "def": "The old pairing of seven metals with the seven classical planets: gold with the Sun, silver with the Moon, copper with Venus, tin with Jupiter, lead with Saturn, mercury with Mercury and iron with Mars. The Goetia assigns each rank's seal a metal."
+  },
+  {
+   "id": "legion",
+   "term": "Legion",
+   "def": "The unit in which the book counts each spirit's followers, borrowed from the Roman army. The Goetia never gives its size; Weyer and Scot put it at six thousand six hundred and sixty-six."
+  },
+  {
+   "id": "four-kings",
+   "term": "Kings of the Quarters",
+   "def": "Four great kings set over the seventy-two, one for each cardinal direction. The Goetia names them Amaymon, Corson, Ziminiar and Goap; other grimoires use different names."
+  },
+  {
+   "id": "familiar",
+   "term": "Familiar",
+   "def": "An attendant spirit said to serve a magician. Several spirits of the Goetia are described as giving good familiars."
+  }
+ ]
+}

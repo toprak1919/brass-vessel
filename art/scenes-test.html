@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scenes test — The Brass Vessel</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #07060a; color: #efe6d6; overflow: hidden; }
+  canvas#bg { position: fixed; inset: 0; width: 100vw; height: 100vh; display: block; }
+  #bar { position: fixed; left: 12px; top: 12px; z-index: 3; display: flex; flex-wrap: wrap; gap: 6px; max-width: 60vw;
+    font: 11px ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; }
+  #bar button, #bar label { font: inherit; letter-spacing: inherit; text-transform: inherit; color: #8b8496; background: rgba(7,6,10,.6);
+    border: 1px solid rgba(139,132,150,.35); padding: 5px 9px; cursor: pointer; }
+  #bar button.on { color: #c9a45c; border-color: #c9a45c; }
+  #fps { position: fixed; right: 12px; top: 12px; z-index: 3; color: #8b8496;
+    font: 11px ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: .14em; }
+  main { position: relative; z-index: 2; max-width: 620px; margin: 0 auto; padding: 16vh 24px 0;
+    font: 19px/1.62 "Iowan Old Style", Palatino, Georgia, serif; }
+  main h1 { font-weight: normal; font-size: 30px; margin: 0 0 .2em; }
+  main .lab { font: 11px ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: .22em; text-transform: uppercase; color: #c9a45c; }
+  main p.dim { color: #8b8496; }
+</style>
+</head>
+<body>
+<canvas id="bg"></canvas>
+<div id="bar"></div>
+<div id="fps">-- fps</div>
+<main>
+  <div class="lab">Episode one · sample text</div>
+  <h1>The Brass Vessel</h1>
+  <p>Stay with me. There is a story that a king once shut seventy-two spirits inside a vessel of brass, sealed it, and sank it in a deep lake. This is a legibility sample, set where the transcript will sit.</p>
+  <p>The backdrop should stay quiet behind these lines: low contrast in the middle, its brighter detail pushed out toward the edges, the top and the bottom of the frame.</p>
+  <p class="dim">Dim text, for the lines that have already been spoken, has to stay readable as well.</p>
+</main>
+<script src="../js/scenes.js"></script>
+<script>
+(function () {
+  var q = new URLSearchParams(location.search), fade = q.has('fade') ? +q.get('fade') : 3;
+  var bar = document.getElementById('bar'), btns = {};
+  function pick(n) {
+    Scenes.set(n, { fade: fade });
+    for (var k in btns) btns[k].className = k === n ? 'on' : '';
+  }
+  Scenes.names.forEach(function (n) {
+    var b = document.createElement('button'); b.textContent = n; b.onclick = function () { pick(n); };
+    bar.appendChild(b); btns[n] = b;
+  });
+  var f = document.createElement('button'); f.textContent = 'flare'; f.onclick = function () { Scenes.flare(); }; bar.appendChild(f);
+  var s = document.createElement('button'); s.textContent = 'strike'; s.onclick = function () { Scenes._strike(); }; bar.appendChild(s);
+  var lab = document.createElement('label'), cb = document.createElement('input'); cb.type = 'checkbox';
+  lab.appendChild(cb); lab.appendChild(document.createTextNode(' voice')); bar.appendChild(lab);
+  /* fake speech envelope, as the app would feed it */
+  var ph = 0;
+  setInterval(function () {
+    if (!cb.checked) return;
+    ph += 0.05;
+    Scenes.pulse(Math.max(0, Math.sin(ph * 7) * 0.5 + Math.sin(ph * 2.3) * 0.4 + 0.2) * (Math.sin(ph * 0.6) > -0.4 ? 1 : 0));
+  }, 50);
+  if (q.has('player')) { /* stand-in for the app's opaque player bar */
+    var pb = document.createElement('div'); pb.id = 'player';
+    pb.style.cssText = 'position:fixed;left:0;right:0;bottom:0;height:86px;z-index:3;background:rgba(7,6,10,.9);border-top:1px solid #2a2631';
+    document.body.appendChild(pb);
+  }
+  Scenes.init(document.getElementById('bg'));
+  pick(q.get('scene') || 'crypt');
+  var out = document.getElementById('fps');
+  setInterval(function () { out.textContent = Scenes.stats.fps.toFixed(0) + ' fps · ' + Scenes.stats.ms.toFixed(2) + ' ms/frame'; }, 500);
+})();
+</script>
+</body>
+</html>

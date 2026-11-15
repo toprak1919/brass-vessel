@@ -1,0 +1,263 @@
+{
+ "id": "ep03",
+ "num": 3,
+ "title": "The Circle and the Triangle",
+ "subtitle": "Chalk, parchment, and the manners of the terrified",
+ "blurb": "The stage set of the Goetia: a nine-foot circle, a triangle outside it, a ring against bad breath, and a procedure that reads like a nervous lawyer's day in court.",
+ "mood": "crypt",
+ "scene": "crypt",
+ "segments": [
+  {
+   "v": "keeper",
+   "t": "A stone floor. A piece of chalk. A circle, nine feet across, drawn with great care by someone whose hand is not quite steady. And in the middle of it, a person in a white robe, who has just understood the one rule of the evening. Whatever happens next, you do not step over the line."
+  },
+  {
+   "v": "keeper",
+   "t": "Good evening. Last night we counted the five doors of this book. Tonight we walk through the first and look at the furniture. Because before the Goetia lets anyone call a single spirit, it spends pages on equipment. And let me say it plainly. I am describing a stage set, as a historian would. This is not a shopping list."
+  },
+  {
+   "v": "book",
+   "t": "This is the Form of the Magical Circle of King Solomon, the which he made that he might preserve himself therein from the malice of these Evil Spirits.",
+   "src": "Goetia (1904), The Magical Circle"
+  },
+  {
+   "v": "keeper",
+   "t": "Preserve himself. The first piece of equipment in the most famous demon book in English is not a weapon. It is a fence. Nine feet across, with the names of God written all the way round it. In the famous drawing, those Hebrew names ride along a coiled serpent. The editor admits, in a footnote, that only one private manuscript shows the serpent. The snake is decoration. The names are the wall.",
+   "term": "magic-circle"
+  },
+  {
+   "v": "keeper",
+   "t": "And then, outside the wall, a second shape. A triangle. Two feet from the circle, three feet across, pointing toward whichever quarter of the world the spirit belongs to. This is where the visitor is meant to stand. Magicians call it the triangle of art. Holy names run along its sides, and across the middle, in three pieces, is the name Michael. The archangel who, in scripture, fights the dragon.",
+   "term": "triangle-of-art"
+  },
+  {
+   "v": "keeper",
+   "t": "Look at the geometry and you have the whole idea. You in here. It out there. Between you, a wall made of words. The book never suggests the magician is stronger than a demon. It suggests he has better references."
+  },
+  {
+   "v": "keeper",
+   "t": "Then there is the wardrobe. A long white robe of linen. On the breast, a five-pointed star, the pentagram of Solomon, in gold or silver, with the spirit's own seal on the back. And at the skirt of the robe, on calfskin parchment, a six-pointed star, the hexagram of Solomon, under a linen cloth. It is shown to the spirits, says the text, to compel them into human shape.",
+   "term": "hexagram",
+   "scene": "library",
+   "mood": "library"
+  },
+  {
+   "v": "keeper",
+   "t": "My favourite object is the smallest. The book calls it the magic ring, then corrects itself. Or rather disc, it says. Gold or silver. Exorcist, by the way, is simply this book's word for the magician. And the job of the ring is wonderfully practical."
+  },
+  {
+   "v": "book",
+   "t": "It is to be held before the face of the exorcist to preserve him from the stinking sulphurous fumes and flaming breath of the Evil Spirits.",
+   "src": "Goetia (1904), The Magic Ring or Disc of Solomon"
+  },
+  {
+   "v": "keeper",
+   "t": "A gas mask, in other words. Add a sword, a dish of burning charcoal, and a secret seal, which the text wants perfumed with alum, raisins dried in the sun, dates and cedar. Somebody thought hard about the raisins. That is the texture of this book. Terror, itemised."
+  },
+  {
+   "threshold": {
+    "id": "ep03-t1",
+    "q": "So. You are standing in the circle, and I will let you hold one thing. Only one. Which do you want in your hand?",
+    "opts": [
+     {
+      "key": "a",
+      "label": "The ring, for the breath",
+      "trait": "skeptic",
+      "reply": "Practical. You chose the one object with a job description. No names of God, no stars, just something between your nose and the smell. I suspect the copyists felt the same. It is the only item on the list that the book bothers to bring up again, twice, by name."
+     },
+     {
+      "key": "b",
+      "label": "The sword",
+      "trait": "seeker",
+      "reply": "Of course. Something with an edge. I will tell you a secret, though. In this book the sword is barely a weapon at all. Wait a few minutes and you will see what actually gets hung on the point of it. It is not what you are hoping for."
+     },
+     {
+      "key": "c",
+      "label": "The star under its cloth",
+      "trait": "poet",
+      "reply": "The hexagram. So what you want is not safety. You want the moment the linen comes away and the thing in the triangle has to put on a face. That is the most theatrical gesture in the whole book, and you went straight to it. I am keeping an eye on you."
+     }
+    ]
+   }
+  },
+  {
+   "v": "keeper",
+   "t": "Hold on to it. Because now the room is ready, and the book turns from furniture to procedure. And the procedure sounds less like a spell than like a day in court.",
+   "scene": "court",
+   "mood": "court"
+  },
+  {
+   "v": "keeper",
+   "t": "It opens with a conjuration. That is a formal summons, spoken aloud, calling a spirit by its name and by the names of God. The first one is long, grand, and very particular about its terms. The spirit is to come at once, from anywhere in the world. Peaceably. And looking presentable.",
+   "term": "conjuration"
+  },
+  {
+   "v": "book",
+   "t": "That thou dost forthwith appear unto me here before this Circle in a fair human shape, without any deformity or tortuosity.",
+   "src": "Goetia (1904), The Conjuration"
+  },
+  {
+   "v": "keeper",
+   "t": "No deformity. No tortuosity. And a few lines on, a voice clear and intelligible, without any ambiguity. Think what is being feared there. Not fire. Not claws. Mumbling. Answers you cannot use."
+  },
+  {
+   "v": "keeper",
+   "t": "And if nothing happens? The book has planned for that, with the patience of a clerk. There is a second conjuration, mostly a list of divine names and their service records. At this name the rivers turned to blood. This one brought the frogs. At this one the sun stood still. Then comes my favourite stage direction in the book."
+  },
+  {
+   "v": "book",
+   "t": "If he come not yet at the rehearsal of these two first conjurations, but without doubt he will, say on as followeth; it being a constraint.",
+   "src": "Goetia (1904), The Second Conjuration"
+  },
+  {
+   "v": "keeper",
+   "t": "But without doubt he will. You can hear the author reassuring himself. The constraint drops the courtesy. Now there are threats. Loss of office. The bottomless pit. And if that fails, the book offers a very human explanation. The spirit has been sent elsewhere by his king, and cannot come. So you go over his head, and ask the king to send him along."
+  },
+  {
+   "v": "keeper",
+   "t": "Still nothing? Then, says the text, he must be lying in chains in hell, and for that there is a general curse, called the Spirits' Chain, at which the chains are supposed to break. And past that lies the last resort. It is the pettiest, most vivid thing in the book.",
+   "term": "spirits-chain",
+   "scene": "fire",
+   "mood": "fire"
+  },
+  {
+   "v": "book",
+   "t": "Write thou his seal on parchment and put thou it into a strong black box; with brimstone, assafoetida, and such like things that bear a stinking smell; and then bind the box up round with an iron wire.",
+   "src": "Goetia (1904), The Spirits' Chain"
+  },
+  {
+   "v": "keeper",
+   "t": "The box is hung on the point of the sword, over the charcoal. A spirit's name, held hostage above a fire, packed in bad smells. An editor's footnote adds, helpfully, that the box should be something that does not burn easily. And then, the moment the spirit arrives, the fire is put out, a sweet perfume is made, and the visitor is given, in the book's words, welcome and a kind entertainment."
+  },
+  {
+   "v": "keeper",
+   "t": "Threats, then hospitality. Then the questions. And then, every single time, the ending, which the book calls the license to depart. A formal dismissal. Go home, and harm neither man nor beast on the way. Even then, the magician may not leave the circle until the spirit is gone. Remember that phrase. Our last night together is named for it.",
+   "term": "license-to-depart"
+  },
+  {
+   "v": "keeper",
+   "t": "So. Why does a book of forbidden magic read like the minutes of a meeting? Here is what I think, and it is only what I think. This is fear management. The people who copied these pages in the sixteen hundreds mostly believed the things on the list could hurt them. So they reached for the two systems they trusted. The church, and the law.",
+   "scene": "void",
+   "mood": "void"
+  },
+  {
+   "v": "keeper",
+   "t": "Listen to the vocabulary. Bonds. Charges. Office. License. A spirit has a rank, a king above him, and a proper form of address. This is feudal society, projected onto the invisible. And the magician is no wizard throwing lightning. He is a nervous lawyer with a subpoena, reading out a higher authority's name and hoping it is recognised."
+  },
+  {
+   "v": "keeper",
+   "t": "And underneath the law, something far older. Draw a line. Stand behind it. Say, that is out there, and I am in here. Children do it with blankets. Towns did it with walls. A circle on the floor may be the oldest gesture we have. A line between us and the dark."
+  },
+  {
+   "threshold": {
+    "id": "ep03-t2",
+    "q": "So let me ask you. The summons has been read. Something is standing in the triangle, just past the chalk. What do you do?",
+    "opts": [
+     {
+      "key": "a",
+      "label": "Stay in. Eyes down.",
+      "trait": "skeptic",
+      "reply": "Sensible. And notice that you did not say you would step out and prove the triangle empty. Nobody ever says that. The circle works on doubters too. It does not need you to believe in the visitor. It only needs you to prefer, on balance, not to find out."
+     },
+     {
+      "key": "b",
+      "label": "Look it in the face",
+      "trait": "seeker",
+      "reply": "I thought you might. The book is on your side, as it happens. All that insistence on a fair human shape exists so that someone like you can look. Just keep your toes behind the chalk while you do it. Curiosity is allowed in here. Leaning is not."
+     },
+     {
+      "key": "c",
+      "label": "Start asking questions",
+      "trait": "scholar",
+      "reply": "Straight to business. That is exactly what the text expects. Once the welcome is said, it tells the exorcist to state his desires and requests. No small talk. You would have made a fine conjuror, or a fine magistrate. In this book they are nearly the same profession."
+     }
+    ]
+   }
+  },
+  {
+   "v": "keeper",
+   "t": "Whatever you chose, you would want to know who was standing there. So here are two entries where the book itself shows why the furniture matters. The first, you would hear before you saw.",
+   "scene": "storm",
+   "mood": "storm"
+  },
+  {
+   "v": "book",
+   "t": "He is a mighty King and terrible. He rideth on a pale horse with trumpets and other kinds of musical instruments playing before him. He is very furious at his first appearance.",
+   "src": "Goetia (1904), spirit 13"
+  },
+  {
+   "v": "keeper",
+   "t": "Beleth. The thirteenth spirit. A king, with eighty-five legions behind him, and he arrives in a rage. Now watch the equipment appear. The exorcist, says the book, must hold a hazel wand, stretch it toward the south and east, and command him into a triangle outside the circle. All the while he keeps a silver ring on the middle finger of his left hand, held against his face. His seal is in your grimoire now. And then, the line that gives the game away.",
+   "spirit": 13
+  },
+  {
+   "v": "book",
+   "t": "Yet he must receive him courteously because he is a Great King, and do homage unto him, as the Kings and Princes do that attend upon him.",
+   "src": "Goetia (1904), spirit 13"
+  },
+  {
+   "v": "keeper",
+   "t": "Homage. To someone you have just threatened into a chalk triangle with a stick. That is the etiquette of this book in one sentence. You may compel a king, but you may not be rude to him. And what does he do, once the trumpets stop? He causes love. All the love that may be, both of men and of women. The most frightening entrance in the catalogue is a matchmaker's."
+  },
+  {
+   "v": "keeper",
+   "t": "The second is Astaroth, the twenty-ninth spirit. A mighty, strong duke, ruling forty legions. He appears as a hurtful angel, riding an infernal beast like a dragon and carrying a viper in his right hand. And here the ring stops being jewellery.",
+   "spirit": 29
+  },
+  {
+   "v": "book",
+   "t": "Thou must in no wise let him approach too near unto thee, lest he do thee damage by his Noisome Breath. Wherefore the Magician must hold the Magical Ring near his face, and that will defend him.",
+   "src": "Goetia (1904), spirit 29"
+  },
+  {
+   "v": "keeper",
+   "t": "His breath. Of all the things to fear from an angel on a dragon. Yet the reward is remarkable. Astaroth gives true answers about things past, present and to come. He discovers all secrets, and makes men wonderfully knowing in the liberal sciences. And, if asked, he will tell you how the spirits fell, and the reason for his own fall. Imagine that interview, conducted from behind a little disc."
+  },
+  {
+   "v": "keeper",
+   "t": "So that is the room. A circle to stand in. A triangle to point at. A ring for the smell. And a script that begins with a polite summons and ends with a box over a fire. None of it tells you whether anything ever came. It tells you how carefully people were afraid.",
+   "scene": "crypt",
+   "mood": "crypt"
+  },
+  {
+   "v": "keeper",
+   "t": "Tomorrow night, the guests themselves, in order of precedence. Because Beleth is a king and Astaroth is a duke, and in this book that matters. Marquises, presidents, earls, each with a count of legions, and above them, four kings of the four quarters. The Courts of Hell."
+  },
+  {
+   "v": "keeper",
+   "t": "Until then. Rub out the chalk, if you like. But do it from the inside, and do it last. And if you hear trumpets on the stairs, stand up straight. He is a great king, and he does notice."
+  }
+ ],
+ "glossary": [
+  {
+   "id": "magic-circle",
+   "term": "The Magical Circle",
+   "def": "The ring drawn on the floor, nine feet across in the Goetia and surrounded by divine names, inside which the magician stands for protection. The spirit is never meant to enter it."
+  },
+  {
+   "id": "triangle-of-art",
+   "term": "Triangle of Art",
+   "def": "A triangle set two feet outside the circle, bearing holy names and the name of the archangel Michael. It marks the place where the summoned spirit is supposed to appear and stay."
+  },
+  {
+   "id": "hexagram",
+   "term": "Hexagram and Pentagram of Solomon",
+   "def": "Two star figures worn by the magician: a six-pointed one on parchment at the skirt of the robe, shown to make spirits take human shape, and a five-pointed one in gold or silver on the breast."
+  },
+  {
+   "id": "conjuration",
+   "term": "Conjuration",
+   "def": "A formal spoken summons that calls a spirit by its own name and commands it by the names of God. The Goetia gives several, each sterner than the last."
+  },
+  {
+   "id": "spirits-chain",
+   "term": "The Spirits' Chain",
+   "def": "The Goetia's name for a general curse read against a spirit that refuses to appear. It is followed, as a last resort, by burning the spirit's seal in a box of foul-smelling things."
+  },
+  {
+   "id": "license-to-depart",
+   "term": "License to Depart",
+   "def": "The formal dismissal that ends every working in the book: the spirit is thanked and told to return peaceably to its place, harming no one."
+  }
+ ]
+}

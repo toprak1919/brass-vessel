@@ -1,0 +1,267 @@
+{
+ "id": "ep07",
+ "num": 7,
+ "title": "Lovers, Liars and Thieves",
+ "subtitle": "What people really asked the dark for",
+ "blurb": "Love, money and revenge: twelve spirits for the wishes nobody admits to, and the one entry where the book warns that the demon may kill you.",
+ "mood": "fire",
+ "scene": "fire",
+ "segments": [
+  {
+   "v": "keeper",
+   "t": "Nobody ever lit a candle at midnight to ask a demon for geometry lessons. Well. A few did. You met their teachers last night, in The Faculty. Astronomy, logic, the virtues of herbs. That was the respectable half of the book. The half you could explain to your mother."
+  },
+  {
+   "v": "keeper",
+   "t": "Tonight is the other half. Tonight is what people actually whispered for. Make her love me. Make me rich. Make him pay. And let me get away with it. This is the night the book stops being a university and becomes a confession. Twelve spirits. Lovers first, then thieves, then blades. Come closer to the fire."
+  },
+  {
+   "v": "keeper",
+   "t": "We start with love, because love magic is the oldest trade there is. There are love charms scratched on lead tablets in ancient Greece, and written on papyrus in Roman Egypt, a thousand years and more before this book. The Goetia simply gives the old job a title and a staff.",
+   "term": "love-magic"
+  },
+  {
+   "v": "keeper",
+   "t": "The head of the department is a prince. Sitri. Sixty legions. He arrives with a leopard's head and the wings of a gryphon, which is an eagle crossed with a lion. Then, when the magician asks, he puts on a human shape, and the book takes care to add, a very beautiful one. Here is his office.",
+   "spirit": 12
+  },
+  {
+   "v": "book",
+   "t": "He enflameth men with Women's love, and Women with Men's love; and causeth them also to show themselves naked if it be desired.",
+   "src": "Goetia (1904), spirit 12"
+  },
+  {
+   "v": "keeper",
+   "t": "If it be desired. Four small words doing a great deal of work. Desired by whom? Not, you will notice, by the person undressing. Keep that question in your pocket. We will need it in a minute."
+  },
+  {
+   "v": "keeper",
+   "t": "Next, a duke in red. Zepar. Twenty-six legions. He comes as a soldier, in red clothes and red armour, and his office is to make women love men and bring them together. Then the entry adds one short sentence and no explanation. He also makes them barren. Cruelty or convenience, the book does not say.",
+   "spirit": 16
+  },
+  {
+   "v": "book",
+   "t": "He is a Great and Mighty Duke, and appeareth in the form of a gallant Soldier riding on a Crocodile, with a Ducal Crown on his head, but peaceably.",
+   "src": "Goetia (1904), spirit 19"
+  },
+  {
+   "v": "keeper",
+   "t": "Sallos. A duke with thirty legions, a crown, a crocodile for a horse, and that lovely last word. Peaceably. He causes the love of women to men and of men to women, and that is all he does. No storms. No treasure. No lies. In a book full of sharp edges, Sallos reads like a wedding guest. I have a soft spot for him.",
+   "spirit": 19
+  },
+  {
+   "v": "keeper",
+   "t": "Then two who come by camel. Uvall is a duke with thirty-seven legions, and he appears first as a mighty dromedary, the camel with one hump. On command he becomes a man and speaks the Egyptian tongue, the book says, but not perfectly. A demon with an accent. He procures the love of women, tells past and future, and makes friends of enemies. In nineteen oh four the editor added a footnote, saying Uvall can nowadays manage sound though colloquial Coptic. That is a joke. The book has very few.",
+   "spirit": 47
+  },
+  {
+   "v": "book",
+   "t": "He is a Duke Strong and Powerful, and appeareth in the Form of a Beautiful Woman, with a Duchess's Crown tied about her waist, and riding on a Great Camel.",
+   "src": "Goetia (1904), spirit 56"
+  },
+  {
+   "v": "keeper",
+   "t": "Gremory. Twenty-six legions. Listen to the grammar. He is a duke. He appears as a beautiful woman. The crown is a duchess's crown, and it is tied about her waist, not set on her head, and nobody explains why. Gremory tells past, present and future, finds hidden treasure, and procures the love of women, both young and old. One of the very few spirits who arrives as a woman, and the book still says he.",
+   "spirit": 56
+  },
+  {
+   "v": "keeper",
+   "t": "Now take that question out of your pocket. Read these entries in a row and notice who is doing the wanting. To procure the love of women. To cause women to love men. Women appear here the way treasure does, as something to be found and fetched. Only a couple of entries trouble to say it runs both ways. That tells you who held the pen. Men. Latin-reading men, many of them clerics and students, often poor, often unmarried. The clerical underworld, as you heard last night. These are not the spells of the powerful. They are the daydreams of lonely men with a library."
+  },
+  {
+   "v": "keeper",
+   "t": "One more lover, and he brings the weather. Furfur. An earl, twenty-six legions. He appears as a hart, which is a stag, with a tail of fire. He raises lightning, thunder and great storms, and he urges love between man and woman. Passion and thunder in one office. But Furfur comes with a warning label.",
+   "spirit": 34,
+   "mood": "storm",
+   "scene": "storm"
+  },
+  {
+   "v": "book",
+   "t": "He never speaketh truth unless he be compelled, or brought up within a triangle. Being therein, he will take upon himself the Form of an Angel.",
+   "src": "Goetia (1904), spirit 34"
+  },
+  {
+   "v": "keeper",
+   "t": "The triangle. You saw it on the third night. A triangle drawn outside the magician's circle, the place where the spirit is told to stand. Inside it, the book claims, a spirit must tell the truth. Outside it, Furfur lies about everything. Put him in, and the burning stag becomes an angel with a hoarse voice, and answers truly. So the book's great spirit of married love cannot be trusted on any subject until he is cornered. I leave you to draw your own conclusions.",
+   "term": "triangle-of-art"
+  },
+  {
+   "threshold": {
+    "id": "ep07-t1",
+    "q": "So the lovers are all in the room. A leopard prince, a soldier in red, a gentleman on a crocodile, two camels and a burning stag. If one of them had to carry a message for you, who goes?",
+    "opts": [
+     {
+      "key": "a",
+      "label": "Sallos, peaceably",
+      "trait": "poet",
+      "reply": "The crocodile. Good. You picked the only one whose entry contains no threat, no trick and no small print, just a crown and a quiet manner. People who choose Sallos usually do not want to win anyone. They want to be met halfway. That is a different wish, and a better one."
+     },
+     {
+      "key": "b",
+      "label": "Furfur, in the triangle",
+      "trait": "seeker",
+      "reply": "The stag with the fiery tail. You want the thunder with it, then. Fair enough. But notice you put him in the triangle before you sent him. You already know that anything which arrives with lightning should be asked twice whether it is telling the truth. Hold on to that instinct."
+     },
+     {
+      "key": "c",
+      "label": "None. I'll ask myself",
+      "trait": "skeptic",
+      "reply": "The hardest spell in the book, and the only one I can promise has ever worked. Walk across the room and say it. I suspect half the men who copied these pages would have given all sixty of Sitri's legions for the nerve to do exactly that."
+     }
+    ]
+   }
+  },
+  {
+   "v": "keeper",
+   "t": "Whoever carries your message, love is only the first thing people ask for in the dark. The second is money. And the book is refreshingly direct about where money comes from. It comes from other people. Mind your pockets. We are going down to the cellar.",
+   "mood": "crypt",
+   "scene": "crypt"
+  },
+  {
+   "v": "book",
+   "t": "He is a mighty Duke, and appeareth in the shape of a Lion with an Ass's Head, bellowing. He is a good Familiar, but tempteth them he is a familiar of to steal.",
+   "src": "Goetia (1904), spirit 6"
+  },
+  {
+   "v": "keeper",
+   "t": "Valefor. A duke with ten legions, a lion's body and a donkey's head, braying. A familiar is a spirit that stays, a servant at your elbow rather than a visitor you call once. And Valefor is a good one, the book insists. Loyal. Helpful. He only keeps suggesting, gently, that you steal. An older version of the list, printed in English in fifteen eighty-four, finishes the thought. He is very friendly, it says, until he has brought you to the gallows. Not a monster. A good friend with one bad idea, repeated.",
+   "spirit": 6,
+   "term": "familiar"
+  },
+  {
+   "v": "keeper",
+   "t": "If Valefor is the bad influence, Raum is the professional. An earl with thirty legions arriving as a crow. His office is to steal treasure out of kings' houses and carry it wherever he is told. Note the address. Not your neighbour's house. The king's. He also destroys cities and the dignities of men, meaning their rank and good name, tells past and future, and reconciles enemies. A full service.",
+   "spirit": 40
+  },
+  {
+   "v": "keeper",
+   "t": "And then Shax. A marquis, thirty legions, in the form of a stock dove, a plain grey wild pigeon, with a voice the book calls hoarse but subtle. Older lists make him a stork. He takes away sight, hearing or understanding. He fetches horses. He steals money out of the houses of kings and, the book says, carries it back again in twelve hundred years. The longest loan in literature. And then comes a clause you have heard before.",
+   "spirit": 44
+  },
+  {
+   "v": "book",
+   "t": "But he must first be commanded into a Triangle, or else he will deceive him, and tell him many Lies.",
+   "src": "Goetia (1904), spirit 44"
+  },
+  {
+   "v": "keeper",
+   "t": "There it is again. Furfur, now Shax, and others you will meet on other nights. The spirit lies unless constrained. I call it the book's fine print. Think about what it does. If the answer you were given turns out false, the spirit did not fail and the book did not fail. You failed, at geometry. It is a clause that makes the whole system impossible to disprove. A sceptic sees a trick. A believer sees a safety manual."
+  },
+  {
+   "threshold": {
+    "id": "ep07-t2",
+    "q": "Be honest with me. A helper who is clever, useful, close at hand, and known to lie. Would you take him on?",
+    "opts": [
+     {
+      "key": "a",
+      "label": "Yes, inside a triangle",
+      "trait": "scholar",
+      "reply": "The magician's answer. Use the liar, but build the room first. That is how every archive, every courtroom and every laboratory works, as it happens. Nobody trusts the witness. They trust the procedure. The men who wrote this book were, in their own strange way, inventing cross-examination."
+     },
+     {
+      "key": "b",
+      "label": "Yes. I know the type",
+      "trait": "poet",
+      "reply": "Of course you do. We all keep a Valefor somewhere. A friend, a habit, a small voice that is excellent company and has exactly one terrible suggestion. The book's only real insight is that he does not feel like an enemy. He feels like the one who understands you."
+     },
+     {
+      "key": "c",
+      "label": "No. Never",
+      "trait": "skeptic",
+      "reply": "Sensible. And yet consider how much of what you know reached you through sources you would not swear to. Rumour. Advertisements. Your own memory. The book's wager is that a liar you can check beats an honest silence. You may refuse the wager. Most of us take it daily."
+     }
+    ]
+   }
+  },
+  {
+   "v": "keeper",
+   "t": "Love. Money. That leaves the third wish, the one nobody admits to at dinner. Revenge. Or, to give it the polite name, victory. The last three spirits tonight all come armed, and they ride in like a tournament.",
+   "mood": "court",
+   "scene": "court"
+  },
+  {
+   "v": "keeper",
+   "t": "Leraje. A marquis with thirty legions. He shows himself as an archer clad in green, with a bow and a quiver, like something stepped out of a ballad. It is all rather charming. Then you read what he does.",
+   "spirit": 14
+  },
+  {
+   "v": "book",
+   "t": "He causeth all great Battles and Contests; and maketh wounds to putrefy that are made with Arrows by Archers.",
+   "src": "Goetia (1904), spirit 14"
+  },
+  {
+   "v": "keeper",
+   "t": "Not kill. Putrefy. Whoever first wrote that had seen an arrow wound a week later, in a world without antibiotics. The wish underneath is very precise and very ugly. Do not only let my enemy lose. Let him not get better."
+  },
+  {
+   "v": "keeper",
+   "t": "Eligos is the staff officer. A duke, sixty legions, a goodly knight carrying a lance, an ensign, which is a battle flag, and a serpent. He discovers hidden things, and he knows how wars will go and how the soldiers will meet. He also causes the love of lords and great persons, which is to say, he gets you noticed by the people who hand out commands. Every captain who ever lay awake before a battle wanted Eligos. Not courage. Information.",
+   "spirit": 15
+  },
+  {
+   "v": "keeper",
+   "t": "And then there is the sixty-third spirit. I have kept him for last. I am going to put the jokes down for a moment, and I would like you to hear his entry the way it is written. Plainly.",
+   "mood": "void",
+   "scene": "void"
+  },
+  {
+   "v": "keeper",
+   "t": "Andras. A marquis with thirty legions. He has the body of an angel and a head like a black night raven. He rides a strong black wolf, and he holds a sharp, bright sword flourished aloft. One word before the book speaks. Exorcist is its name for the magician, the one who commands spirits by oath. You.",
+   "spirit": 63,
+   "term": "exorcist"
+  },
+  {
+   "v": "book",
+   "t": "His Office is to sow Discords. If the Exorcist have not a care, he will slay both him and his fellows.",
+   "src": "Goetia (1904), spirit 63"
+  },
+  {
+   "v": "keeper",
+   "t": "That is the whole entry. No knowledge. No treasure. No gift at all, unless discord is a gift. Every other spirit tonight was described by what it will do for you. Andras is described by what he will do to you. And to your fellows, the friends who came along to help. The book files him anyway, number sixty-three, with a seal, between a president and a duke, as calmly as it filed the crocodile."
+  },
+  {
+   "v": "keeper",
+   "t": "Why would anyone call him? Because someone, somewhere, wanted an enemy's house divided badly enough to stand that close to the sword. That is the far end of wanting. The book does not judge it. It notes the risk and moves on."
+  },
+  {
+   "v": "keeper",
+   "t": "So here is what I think this night is for. Forget the demons for a moment and read the list as a list of wishes. To be loved by someone who does not love you. To have a king's money. To know how the fight ends before it starts. To watch an enemy fail to heal. It is the most honest record of ordinary human wanting you will ever find, because nobody wrote it to look good. Nobody summons a demon for what they already have.",
+   "mood": "fire",
+   "scene": "fire"
+  },
+  {
+   "v": "keeper",
+   "t": "Their seals are in your grimoire now, all twelve. The lovers, the thieves, the blades. Look through them later, and notice which page you linger on. I will not ask. That is between you and the book."
+  },
+  {
+   "v": "keeper",
+   "t": "Tomorrow we stop asking what they do and simply look at them. The eighth night is The Bestiary. The strangest and most beautiful shapes in the whole catalogue. Wings and scales and fire, creatures no zoo would insure, and one or two so lovely that you may forget, for a moment, what they are."
+  },
+  {
+   "v": "keeper",
+   "t": "Until then. Bank the fire. Count the spoons. And if a very good friend should suggest something to you tonight, something small and clever, sleep on it first. Good night."
+  }
+ ],
+ "glossary": [
+  {
+   "id": "love-magic",
+   "term": "Love Magic",
+   "def": "Charms and rites meant to make one person desire another. Among the oldest recorded kinds of magic, found on Greek lead tablets and Egyptian papyri long before the grimoires."
+  },
+  {
+   "id": "triangle-of-art",
+   "term": "Triangle of Art",
+   "def": "A triangle set two feet outside the circle, bearing holy names and the name of the archangel Michael. It marks the place where the summoned spirit is supposed to appear and stay."
+  },
+  {
+   "id": "familiar",
+   "term": "Familiar",
+   "def": "An attendant spirit said to serve a magician. Several spirits of the Goetia are described as giving good familiars."
+  },
+  {
+   "id": "exorcist",
+   "term": "Exorcist",
+   "def": "In the Goetia, simply the magician: the person who calls and commands a spirit. The modern meaning, someone who drives a spirit out, came to dominate later."
+  }
+ ]
+}

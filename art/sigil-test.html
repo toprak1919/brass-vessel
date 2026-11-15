@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sigil test — The Brass Vessel</title>
+<style>
+  body { margin: 0; padding: 32px; background: #07060a; color: #efe6d6;
+    font-family: "Iowan Old Style", Palatino, Georgia, serif; }
+  h2 { font: 12px ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: .3em; text-transform: uppercase;
+    color: #8b8496; margin: 48px 0 16px; }
+  #circle { text-align: center; }
+  #grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 18px; }
+  .cell { text-align: center; }
+  .cell small { display: block; font: 10px ui-monospace, Menlo, monospace; letter-spacing: .18em; color: #8b8496;
+    text-transform: uppercase; margin-top: 4px; }
+  .cell small svg { vertical-align: middle; margin-right: 4px; }
+  .row { display: flex; gap: 40px; flex-wrap: wrap; align-items: center; }
+  input { background: transparent; border: 0; border-bottom: 1px solid #8b8496; color: #efe6d6; font: inherit;
+    font-size: 20px; padding: 6px 2px; width: 320px; outline: none; }
+  #replay { cursor: pointer; }
+  #ranks span { display: inline-block; margin-right: 22px; color: #c9a45c;
+    font: 10px ui-monospace, Menlo, monospace; letter-spacing: .18em; text-transform: uppercase; }
+  #ranks svg { vertical-align: middle; margin-right: 6px; }
+  #small svg { margin-right: 10px; }
+</style>
+</head>
+<body>
+<div id="circle"></div>
+
+<h2>Rank glyphs</h2>
+<div id="ranks"></div>
+
+<h2>Personal seal — type anything</h2>
+<div class="row">
+  <input id="txt" value="Keeper of the vessel" autocomplete="off">
+  <div id="personal"></div>
+  <div id="reduced" style="color:#8b8496;font:12px ui-monospace,Menlo,monospace;letter-spacing:.3em"></div>
+</div>
+
+<h2>Click to replay Sigil.draw</h2>
+<div class="row"><div id="replay"></div><div id="small"></div></div>
+
+<h2>The seventy-two <span id="src"></span></h2>
+<div id="grid"></div>
+
+<script src="../js/sigils.js"></script>
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  Sigil.draw($('circle'), Sigil.circle({ size: 760 }), { duration: 5000 });
+  Sigil.draw(null, '<svg/>'); // must not throw
+
+  $('ranks').innerHTML = Sigil.RANKS.map(function (r) {
+    return '<span>' + Sigil.rankGlyph(r) + r + '</span>';
+  }).join('');
+
+  function personal() {
+    $('personal').innerHTML = Sigil.personal($('txt').value, { size: 220, accent: '#8f6bff' });
+    $('reduced').textContent = Sigil.reduce($('txt').value);
+  }
+  $('txt').addEventListener('input', personal);
+  personal();
+
+  function render(spirits, src) {
+    $('src').textContent = '(' + src + ')';
+    $('grid').innerHTML = spirits.map(function (s) {
+      return '<div class="cell">' + Sigil.spirit(s.n, s.name, s.rank, { size: 190 }) +
+        '<small>' + Sigil.rankGlyph(s.rank[0], { size: 16 }) + s.n + ' · ' + s.name + ' · ' + s.rank.join(' / ') + '</small></div>';
+    }).join('');
+    var first = spirits[8] || spirits[0];
+    var replay = function () {
+      Sigil.draw($('replay'), Sigil.spirit(first.n, first.name, first.rank, { size: 300 }), { duration: 2600 });
+    };
+    $('replay').onclick = replay; replay();
+    $('small').innerHTML = [96, 64, 40].map(function (px) {
+      return Sigil.spirit(first.n, first.name, first.rank, { size: px, label: px > 80 });
+    }).join('');
+  }
+
+  function fallback() {
+    var out = [];
+    for (var n = 1; n <= 72; n++) {
+      var rank = [Sigil.RANKS[(n - 1) % 7]];
+      if (n % 9 === 0) rank.push(Sigil.RANKS[(n + 2) % 7]);
+      out.push({ n: n, name: 'Spirit ' + n, rank: rank });
+    }
+    return out;
+  }
+
+  fetch('../data/canon.json').then(function (r) {
+    if (!r.ok) throw new Error('no canon');
+    return r.json();
+  }).then(function (j) {
+    if (!j || !j.spirits || !j.spirits.length) throw new Error('empty canon');
+    render(j.spirits.map(function (s) {
+      return { n: s.n, name: s.name, rank: Array.isArray(s.rank) ? s.rank : [s.rank] };
+    }), 'canon.json');
+  }).catch(function () { render(fallback(), 'placeholder names'); });
+})();
+</script>
+</body>
+</html>
